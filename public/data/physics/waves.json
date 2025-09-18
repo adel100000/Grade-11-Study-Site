@@ -1,0 +1,271 @@
+{
+  "unit": "Waves and Sound",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Sound Waves — Part 1 (Basics)",
+      "content": "A wave is a disturbance that transfers energy through space or a medium without carrying matter along permanently. For sound, the medium is usually air (but it can also be water, steel, etc.).\n\nKey quantities:\n- Wavelength (λ): the distance between repeating points on a wave (for sound: compression to compression), measured in meters (m).\n- Frequency (f): the number of cycles per second, measured in hertz (Hz). Humans typically hear about 20 Hz–20 kHz.\n- Period (T): the time for one cycle, in seconds (s). It relates to frequency by $$T = \\frac{1}{f}.$$ \n- Amplitude: the maximum displacement from equilibrium; for sound, larger amplitude corresponds to louder sounds.\n- Wave speed (v): how fast the disturbance travels. For any periodic wave, $$v = f\\,\\lambda.$$ \n\nSound is a mechanical, longitudinal wave: particles of the medium oscillate back-and-forth parallel to the direction the wave travels, creating compressions and rarefactions. The particles themselves do not travel with the wave; they vibrate around an equilibrium position.\n\nExample: If a sound wave has frequency 440 Hz and wavelength 0.78 m, the speed is $$v = f\\lambda = 440 \\times 0.78 \\approx 343\\text{ m/s}$$.",
+      "video": "https://www.youtube.com/watch?v=s9wZkP64rAc",
+      "image": "/public/images/Graphs-of-sound-waves20151209-28053-22a00i.jpg",
+      "supplementary": "https://science.howstuffworks.com/sound-info.htm"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Sound Waves — Part 2 (Transverse vs. Longitudinal)",
+      "content": "In a transverse wave, particles vibrate perpendicular to the wave’s direction (like a rope being shaken up and down). In a longitudinal wave (like sound), particles vibrate parallel to the direction of travel.\n\nRegardless of the type, the relationship $$v = f\\,\\lambda$$ still holds. If frequency increases while wave speed in that medium stays the same, the wavelength must decrease, and vice versa.\n\nExample: Light is transverse; sound is longitudinal.",
+      "video": "https://www.youtube.com/watch?v=XY0RJu4sDHk",
+      "image": "/public/images/R (6).png",
+      "supplementary": "https://www.sciencing.com/transverse-vs-longitudinal-waves-whats-the-difference-w-examples-13721565/"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for wave speed?",
+      "options": ["v = fλ", "v = λ/f", "v = f²λ", "v = λ²/f"],
+      "answer": "v = fλ"
+    },
+    {
+      "type": "quiz",
+      "question": "Frequency unit?",
+      "options": ["Hz", "J", "N", "m/s"],
+      "answer": "Hz"
+    },
+    {
+      "type": "quiz",
+      "question": "Sound waves are?",
+      "options": ["Longitudinal", "Transverse", "Both", "None"],
+      "answer": "Longitudinal"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Speed of Sound — Part 1 (What Affects Speed)",
+      "content": "The speed of sound depends on the medium’s properties. In general, sound travels fastest in solids, slower in liquids, and slowest in gases, because particles interact more strongly in solids.\n\nTypical values at room temperature:\n- Air: v ≈ 343 m/s\n- Water: v ≈ 1482 m/s\n- Steel: v ≈ 5000 m/s\n\nIn air, speed also increases with temperature. A useful approximation is: $$v_{\\text{air}} \\approx 331\\,\\text{m/s} + 0.6\\,T(^{\\circ}\\!\\text{C}).$$\n\nExample: At 20°C, $$v_{air} ≈ 331 + 0.6\\times20 = 343\\text{ m/s}$$.",
+      "video": "https://www.youtube.com/watch?v=UgE2GIQwUCw",
+      "image": "/public/images/sound.gif",
+      "supplementary": "https://sciencenotes.org/speed-of-sound-in-physics/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Speed of Sound — Part 2 (Simple Models)",
+      "content": "A model for sound speed in fluids is $$v = \\sqrt{\\tfrac{B}{\\rho}},$$ where B is the bulk modulus (how hard it is to compress the fluid) and ρ is the density of the medium. A stiffer (larger B) or less dense (smaller ρ) medium gives a larger v.\n\nFor waves on a stretched string (useful in music), the speed is $$v = \\sqrt{\\tfrac{F_T}{\\mu}},$$ where F_T is the string tension and μ is the string’s linear mass density (kg/m). Increasing tension or using a lighter string increases wave speed.\n\nExample: For a string with μ = 0.01 kg/m and tension F_T = 100 N, $$v = \\sqrt{100/0.01} = \\sqrt{10000} = 100\\text{ m/s}$$.",
+      "video": "https://www.youtube.com/watch?v=1wrD4JLgb1c",
+      "image": "null",
+      "supplementary": "https://sciencenotes.org/speed-of-sound-in-physics/"
+    },
+    {
+      "type": "quiz",
+      "question": "Sound travels fastest in?",
+      "options": ["Solids", "Liquids", "Gases", "Vacuum"],
+      "answer": "Solids"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for sound speed in a medium?",
+      "options": ["v = √(B/ρ)", "v = fλ", "v = λ/f", "v = mgh"],
+      "answer": "v = √(B/ρ)"
+    },
+    {
+      "type": "quiz",
+      "question": "Approximate speed of sound in air?",
+      "options": ["343 m/s", "1482 m/s", "5000 m/s", "300 m/s"],
+      "answer": "343 m/s"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Mach Number",
+      "content": "The Mach number compares an object’s speed to the speed of sound in the same medium: $$\\text{Mach} = \\frac{v_{\\text{object}}}{v_{\\text{sound}}}.$$ \n- Subsonic: Mach < 1 (slower than sound)\n- Sonic: Mach = 1 (equal to sound speed)\n- Supersonic: Mach > 1 (faster than sound)\n\nMach number is used in aviation and aerodynamics to describe regimes of airflow and shock-wave formation.\n\nExample: A jet flying at 686 m/s in air (v_sound ≈ 343 m/s) has Mach = 686/343 = 2 → supersonic.",
+      "video": "https://www.youtube.com/watch?v=Ntridyss88Q",
+      "image": "/public/images/OIP (16).webp",
+      "supplementary": "https://www.grc.nasa.gov/WWW/k-12/airplane/mach.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for Mach number?",
+      "options": ["Mach = v_object / v_sound", "Mach = v_sound / v_object", "Mach = fλ", "Mach = v²/c²"],
+      "answer": "Mach = v_object / v_sound"
+    },
+    {
+      "type": "quiz",
+      "question": "Mach > 1 means?",
+      "options": ["Supersonic", "Sonic", "Subsonic", "None"],
+      "answer": "Supersonic"
+    },
+    {
+      "type": "quiz",
+      "question": "Mach = 1 means?",
+      "options": ["Sonic", "Subsonic", "Supersonic", "Hypersonic"],
+      "answer": "Sonic"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Superposition and Interference — Part 1 (Principle)",
+      "content": "The principle of superposition says that when two or more waves overlap, the resulting displacement at any point is the sum of the individual displacements.\n- Constructive interference: waves add to produce a larger amplitude (crests meet crests).\n- Destructive interference: waves partially or completely cancel (crest meets trough).\n\nInterference patterns depend on both relative phase and path difference between the waves.\n\nExample: Two speakers emitting the same sound frequency can create loud spots (constructive) and quiet spots (destructive) in a room.",
+      "video": "https://www.youtube.com/watch?v=CAe3lkYNKt8",
+      "image": "/public/images/maxresdefault (8).jpg",
+      "supplementary": "https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_7C_-_General_Physics/8%3A_Waves/8.5%3A_Superposition_and_Interference"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Superposition and Interference — Part 2 (Path Difference)",
+      "content": "For two in-phase sound sources, constructive interference occurs when the path difference is a whole number of wavelengths: $$\\Delta L = m\\,\\lambda \\quad (m = 0,1,2,\\dots).$$ Destructive interference occurs when $$\\Delta L = \\big(m + \\tfrac{1}{2}\\big)\\,\\lambda.$$ These conditions help predict where loud (constructive) and quiet (destructive) regions occur.\n\nExample: Two speakers 3 m apart emitting 340 Hz sound (v=340 m/s) produce constructive interference at points where the distance difference = n*(λ) = n*(1 m).",
+      "video": "null",
+      "image": "/public/images/Constructive-Interference.gif",
+      "supplementary": "https://www.physicsclassroom.com/class/waves/Lesson-3/Interference-of-Waves"
+    },
+    {
+      "type": "quiz",
+      "question": "What does the superposition principle state?",
+      "options": ["Resultant = sum of waves", "Average = sum of waves", "Product of waves", "Difference of waves"],
+      "answer": "Resultant = sum of waves"
+    },
+    {
+      "type": "quiz",
+      "question": "Constructive interference happens when?",
+      "options": ["Amplitudes add", "Amplitudes subtract", "Wavelength doubles", "Frequency doubles"],
+      "answer": "Amplitudes add"
+    },
+    {
+      "type": "quiz",
+      "question": "Destructive interference happens when?",
+      "options": ["Amplitudes subtract", "Amplitudes add", "Frequency increases", "Speed changes"],
+      "answer": "Amplitudes subtract"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Wave Behavior at Boundaries",
+      "content": "Waves change behavior when they meet new media or obstacles.\n- **Reflection**: a wave bounces back. Angle of incidence equals angle of reflection. On a string, reflection at a fixed end inverts the pulse (crest returns as trough); at a free end it does not invert.\n- **Refraction**: a wave changes **speed** (and direction) when entering a new medium. **Frequency stays the same**, so the wavelength changes according to \\(v = f\\lambda\\).\n- **Diffraction**: waves **bend** around obstacles or spread through openings. Diffraction is most noticeable when the opening or obstacle size is comparable to \\(\\lambda\\).\n- **Absorption**: wave energy is converted to other forms (often thermal), reducing the wave’s amplitude.\n\nExample: Sound bending around a corner in a hallway is diffraction; echoing off a wall is reflection.",
+      "video": "https://www.youtube.com/watch?v=BL2MtP7j-xk",
+      "image": "/public/images/OIP (17).webp",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "Which behavior is wave bending around obstacles?",
+      "options": ["Diffraction", "Reflection", "Refraction", "Absorption"],
+      "answer": "Diffraction"
+    },
+    {
+      "type": "quiz",
+      "question": "Wave changes speed when entering a new medium. This is?",
+      "options": ["Refraction", "Reflection", "Diffraction", "Interference"],
+      "answer": "Refraction"
+    },
+    {
+      "type": "quiz",
+      "question": "When wave energy converts to heat, it’s called?",
+      "options": ["Absorption", "Reflection", "Diffraction", "Refraction"],
+      "answer": "Absorption"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Mechanical Resonance — Part 1 (Concept)",
+      "content": "**Resonance** occurs when a system is driven near its **natural frequency** \\((f_0)\\). Even small periodic pushes can build up to a large amplitude because energy is added **in sync** with the oscillation. Everyday examples include pushing a child on a swing, musical instruments, and bridge oscillations.\n\n**Damping** (friction or drag) limits the amplitude and causes the resonance peak to be smaller and broader.\n\nExample: Pushing a swing at its natural frequency makes it go higher; pushing at a non-matching rate barely moves it.",
+      "video": "https://www.youtube.com/watch?v=MIgQrHW53Lw",
+      "image": "null",
+      "supplementary": "https://your-physicist.com/basics-of-mechanical-resonance/"
+    },
+    {
+      "type": "quiz",
+      "question": "Resonance occurs when?",
+      "options": ["Frequency = natural frequency", "Frequency = 0", "Frequency doubles", "Any frequency"],
+      "answer": "Frequency = natural frequency"
+    },
+    {
+      "type": "quiz",
+      "question": "What’s the effect of resonance?",
+      "options": ["Large amplitude", "No motion", "Small amplitude", "Energy lost"],
+      "answer": "Large amplitude"
+    },
+    {
+      "type": "quiz",
+      "question": "Which of these is an example of resonance?",
+      "options": ["Swing", "Static box", "Flat surface", "Light bulb"],
+      "answer": "Swing"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Mechanical Resonance — Part 2 (Light Math & Symbols)",
+      "content": "It is common to describe resonance using **angular frequency** \\((\\omega = 2\\pi f)\\). A system’s **natural angular frequency** is \\(\\omega_0\\). When a periodic **driving force** has angular frequency \\(\\omega\\) close to \\(\\omega_0\\), the amplitude becomes large. **Damping** is often represented by a coefficient \\(\\beta\\); larger \\(\\beta\\) means more energy loss each cycle and a **smaller** resonance amplitude. \n\n(Relationships: ω = 2πf, ω0 = 2πf0, β = damping; max amplitude occurs when ω ≈ ω0.)",
+      "video": "https://www.youtube.com/watch?v=talN8nFXzEo",
+      "image": "/public/images/OIP (18).webp",
+      "supplementary": "https://your-physicist.com/basics-of-mechanical-resonance/"
+    },
+    {
+      "type": "quiz",
+      "question": "When does maximum amplitude occur?",
+      "options": ["ω = ω₀", "ω > ω₀", "ω < ω₀", "ω = 0"],
+      "answer": "ω = ω₀"
+    },
+    {
+      "type": "quiz",
+      "question": "In the resonance description here, β represents?",
+      "options": ["Damping coefficient", "Amplitude", "Frequency", "Velocity"],
+      "answer": "Damping coefficient"
+    },
+    {
+      "type": "quiz",
+      "question": "Driving angular frequency is symbolized by?",
+      "options": ["ω", "ω₀", "β", "A"],
+      "answer": "ω"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 8: Doppler Effect",
+      "content": "The **Doppler effect** is the apparent change in frequency due to relative motion of the source and/or observer. For sound (non-relativistic), a useful form is\n$$f' = f\\,\\frac{v \\pm v_{\\text{observer}}}{v \\mp v_{\\text{source}}}.$$ \n- \\(f'\\): observed frequency; \\(f\\): source frequency; \\(v\\): speed of sound in the medium.\n- Use **+** in the numerator if the observer moves **toward** the source; use **−** in the denominator if the source moves **toward** the observer. \n\nExample: Ambulance moving toward you: pitch sounds higher; moving away: pitch sounds lower.",
+      "video": "https://www.youtube.com/watch?v=h4OnBYrbCjY&t=9s",
+      "image": "/public/images/Doppler-Effect.jpg",
+      "supplementary": "https://sciencenotes.org/doppler-effect-definition-formula-and-examples/"
+    },
+    {
+      "type": "quiz",
+      "question": "Correct formula for Doppler effect?",
+      "options": ["f' = f (v ± v_obs)/(v ∓ v_src)", "v = fλ", "KE = 1/2 mv²", "PE = mgh"],
+      "answer": "f' = f (v ± v_obs)/(v ∓ v_src)"
+    },
+    {
+      "type": "quiz",
+      "question": "If observer moves toward the source, frequency?",
+      "options": ["Increases", "Decreases", "No change", "Amplitude doubles"],
+      "answer": "Increases"
+    },
+    {
+      "type": "quiz",
+      "question": "If source moves away, frequency?",
+      "options": ["Decreases", "Increases", "Amplitude decreases", "No change"],
+      "answer": "Decreases"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 9: Waves and Music — Part 1 (Pitch, Loudness, Standing Waves on Strings)",
+      "content": "**Pitch** is how high or low a sound seems and depends on **frequency** \\((f)\\). **Loudness** is related to **amplitude** (and sound intensity). Musical tones often come from **standing waves**, where reflections create **nodes** (no motion) and **antinodes** (maximum motion).\n\nFor a string fixed at both ends with length \\(L\\):\n- Allowed wavelengths: $$\\lambda_n = \\frac{2L}{n}, \\quad n = 1,2,3,\\dots$$\n- Corresponding frequencies: $$f_n = \\frac{n\\,v}{2L} \\quad (\\text{harmonics}).$$\nHere \\(v\\) is the wave speed on the string. The **fundamental** (\\(n=1\\)) has \\(\\lambda_1 = 2L\\).\n\nExample: Guitar string L = 0.65 m, v = 130 m/s → fundamental frequency: f1 = v/(2L) ≈ 100 Hz.",
+      "video": "https://www.youtube.com/watch?v=YB3uR7KmkdU",
+      "image": "/public/images/soundwave.png",
+      "supplementary": "https://phys.libretexts.org/Courses/Fresno_City_College/NATSCI-1A%3A_Natural_Science_for_Educators_Fresno_City_College_(CID%3A_PHYS_140)/10%3A_Property_of_Sound_Doppler_Effect_and_Interferences/10.06%3A_Frequency_and_Pitch_of_Sound"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 9: Waves and Music — Part 2 (Air Columns: Open & Closed Pipes)",
+      "content": "Air columns also form standing waves.\n- **Open–open pipe (both ends open):** same pattern as a string: $$\\lambda_n = \\frac{2L}{n}, \\quad f_n = \\frac{n\\,v}{2L}.$$\n- **Open–closed pipe (one end closed):** only **odd** harmonics: $$\\lambda_n = \\frac{4L}{2n-1}, \\quad f_n = \\frac{(2n-1)\\,v}{4L}, \\quad n=1,2,3,\\dots$$\n\nChanging \\(L\\), \\(v\\), or tension (for strings) adjusts pitch. **Timbre** comes from the mix of harmonics.\n\nExample: Flute (open-open) produces all harmonics; clarinet (open-closed) emphasizes odd harmonics.",
+      "video": "https://www.youtube.com/watch?v=0Rfushlee0U",
+      "image": "/public/images/open-air-columns1-l.jpg",
+      "supplementary": "https://ophysics.com/waves8b.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Pitch of a sound depends on?",
+      "options": ["Frequency", "Amplitude", "Wavelength", "Speed"],
+      "answer": "Frequency"
+    },
+    {
+      "type": "quiz",
+      "question": "Loudness of a sound depends on?",
+      "options": ["Amplitude", "Pitch", "Frequency", "Wave speed"],
+      "answer": "Amplitude"
+    },
+    {
+      "type": "quiz",
+      "question": "Fundamental wavelength of string fixed at both ends?",
+      "options": ["λ = 2L", "λ = L", "λ = 4L", "λ = L/2"],
+      "answer": "λ = 2L"
+    }
+  ]
+}

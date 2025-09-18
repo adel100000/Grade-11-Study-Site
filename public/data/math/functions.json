@@ -1,0 +1,287 @@
+{
+  "unit": "Functions",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Functions",
+      "content": "A function is a relation where each input ($x$) has exactly one output ($y$). Functions can be represented as equations, tables, or graphs.\n\nExample:\n1. $y = x^2$ → a function (every $x$ has one $y$)\n2. $x = y^2$ → not a function (some $y$'s have multiple $x$'s)\n\nKey idea: Each $x$-value must map to exactly one $y$-value. Real-world example: hours worked (input) → pay (output).",
+      "video": "https://www.youtube.com/watch?v=tAoe4xjUZQk",
+      "image": "/public/images/what-is-a-function-and-what-is-not.webp",
+      "supplementary": "https://www.youtube.com/watch?v=7JZ0IfCQ488"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1b: Function Graphs",
+      "content": "Graphs help visualize functions. If a vertical line crosses the graph more than once, the relation is not a function (Vertical Line Test).\n\nExample:\n- $y = x^2$ → passes vertical line test\n- $x = y^2$ → fails vertical line test",
+      "video": "https://www.youtube.com/watch?v=EjsQWKq-dGQ",
+      "image": "/public/images/introduction-to-functions-grade-11-General-Math-15-638.webp",
+      "supplementary": "https://www.mathsisfun.com/sets/function.html"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Which of the following is a function?",
+          "options": ["$y = x^2$", "$x = y^2$", "Both", "Neither"],
+          "answer": 0
+        },
+        {
+          "question": "If $f(x) = x + 2$, what is $f(3)$?",
+          "options": ["5", "6", "3", "2"],
+          "answer": 0
+        },
+        {
+          "question": "Which statement is true?",
+          "options": [
+            "Functions can have two $y$ values for one $x$",
+            "Each $x$ maps to exactly one $y$",
+            "Functions must be linear",
+            "Functions have no domain"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Domain of a Function",
+      "content": "The domain is the set of all possible input values ($x$-values). Consider what values make the function undefined.\n\nExamples:\n- $f(x) = \\sqrt{x-1}$ → domain $x \\ge 1$\n- $f(x) = \\frac{1}{x}$ → domain $x \\ne 0$",
+      "video": "https://www.youtube.com/watch?v=-DTMakGDZAw",
+      "image": "/public/images/CNX_Precalc_Figure_01_02_0082.jpg",
+      "supplementary": "https://www.wikihow.com/Find-the-Domain-of-a-Function"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2b: Range of a Function",
+      "content": "The range is the set of all possible outputs ($y$-values).\n\nExamples:\n- $f(x) = x^2$ → range $y \\ge 0$\n- $f(x) = \\sqrt{x-1}$ → range $y \\ge 0$\n- $f(x) = \\frac{1}{x}$ → range $y \\ne 0$",
+      "video": "https://www.youtube.com/watch?v=96uHMcHWD2E",
+      "image": "/public/images/range_of_function.png",
+      "supplementary": "https://www.wikihow.com/Find-the-Range-of-a-Function"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "What is the domain of $f(x) = \\sqrt{x+3}$?",
+          "options": ["$x \\ge -3$", "$x > 0$", "$x \\le -3$", "All real numbers"],
+          "answer": 0
+        },
+        {
+          "question": "What is the range of $f(x) = x^2$?",
+          "options": ["$y \\ge 0$", "$y \\le 0$", "All real numbers", "$y > 0$"],
+          "answer": 0
+        },
+        {
+          "question": "Which statement is correct for $f(x) = \\frac{1}{x}$?",
+          "options": [
+            "Domain: $x \\ne 0$",
+            "Range: $y \\ne 0$",
+            "Both domain and range exclude 0",
+            "No restrictions"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Function Notation",
+      "content": "Function notation names functions using $f(x)$, $g(x)$, $h(x)$, etc. Evaluating a function means finding the output for a given input.\n\nExample:\n- $f(x) = x^2 + 3$ → $f(2) = 2^2 + 3 = 7$\n- $g(x) = \\sqrt{x}$ → $g(4) = 2$",
+      "video": "https://www.youtube.com/watch?v=sT0kFUvABfg",
+      "image": "public/images/R.png",
+      "supplementary": "https://www.youtube.com/watch?v=lGfsp2CWjok"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3b: Evaluating Functions",
+      "content": "Step-by-step:\n1. Identify the function and input value.\n2. Substitute input for $x$.\n3. Simplify to find output.\n\nExample: If $f(x) = 3x + 1$, $f(4) = 3*4 + 1 = 13$",
+      "video": "https://www.youtube.com/watch?v=_e0EdFGpcvc",
+      "image": "/public/images/evaluating_functions2.png",
+      "supplementary": "https://www.youtube.com/watch?v=HyNie_PYgsY"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "If $f(x) = 3x + 1$, what is $f(4)$?",
+          "options": ["13", "12", "7", "15"],
+          "answer": 0
+        },
+        {
+          "question": "If $g(x) = x^2 - 2x$, what is $g(3)$?",
+          "options": ["3", "3", "3", "3"],
+          "answer": 0
+        },
+        {
+          "question": "Which notation shows the output of $f$ at $x = 5$?",
+          "options": ["$f(5)$", "$f(x)$", "$f$", "5(x)"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Max/Min of Quadratics",
+      "content": "Quadratic functions: $f(x) = ax^2 + bx + c$.\n- $a > 0$ → parabola opens up → minimum at vertex\n- $a < 0$ → parabola opens down → maximum at vertex\nVertex formula: $x = -\\frac{b}{2a}$, plug into $f(x)$ to get $y$-value.\n\nExample: $f(x) = x^2 - 4x + 3$ → vertex at $(2,-1)$",
+      "video": "https://www.youtube.com/watch?v=9Qa6CsZ6UkI",
+      "image": "/public/images/quadratic-functions-min-max-1-728.webp",
+      "supplementary": "https://www.youtube.com/watch?v=PQHtjEEHZew"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4b: Quadratic Graph Examples",
+      "content": "Visualizing:\n- $f(x) = -3x^2 + 6x - 2$ → max at vertex $x=1$\n- $f(x) = 2x^2 + 8x + 5$ → opens up\nGraphs help identify max/min points.",
+      "video": "https://www.youtube.com/watch?v=AueBC1VAO28",
+      "image": "/public/images/Quadratic-Graphs-Example-3-Step-3.svg",
+      "supplementary": "https://thirdspacelearning.com/gcse-maths/algebra/quadratic-graphs/"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Find the vertex of $f(x) = x^2 - 4x + 3$",
+          "options": ["(2,-1)", "(1,0)", "(2,1)", "(0,3)"],
+          "answer": 0
+        },
+        {
+          "question": "$f(x) = -3x^2 + 6x - 2$. Maximum occurs at:",
+          "options": ["x=1", "x=-1", "x=2", "x=0"],
+          "answer": 0
+        },
+        {
+          "question": "Parabola $f(x) = 2x^2 + 8x + 5$ opens:",
+          "options": ["Up", "Down", "Left", "Right"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Radicals",
+      "content": "Radicals are expressions with square roots, cube roots, etc.\n- $\\sqrt{a}$ = positive square root\n- Operations: $\\sqrt{a} * \\sqrt{b} = \\sqrt{a*b}$, $\\sqrt{a} / \\sqrt{b} = \\sqrt{a/b}$\n- Cube roots: $\\sqrt[3]{a}$",
+      "video": null,
+      "image": "/public/images/R.jpg",
+      "supplementary": "https://www.cuemath.com/radical-formula/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5b: Simplifying Radicals",
+      "content": "Step-by-step:\n1. Factor inside radical.\n2. Separate perfect powers.\n3. Simplify.\n\nExample: $\\sqrt{72} = \\sqrt{36*2} = 6\\sqrt{2}$",
+      "video": "https://www.youtube.com/watch?v=yKQfYBnBkn8",
+      "image": "/public/images/Banner/webp",
+      "supplementary": null
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Simplify $\\sqrt{72}$",
+          "options": ["$6\\sqrt{2}$", "$8\\sqrt{3}$", "$3\\sqrt{6}$", "$9\\sqrt{8}$"],
+          "answer": 0
+        },
+        {
+          "question": "Simplify $\\sqrt{18}/\\sqrt{2}$",
+          "options": ["3", "9", "$\\sqrt{9}$", "$\\sqrt{36}$"],
+          "answer": 0
+        },
+        {
+          "question": "$\\sqrt{50} + \\sqrt{8}$ simplifies to:",
+          "options": ["$7\\sqrt{2}$", "10", "$\\sqrt{58}$", "None"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Solving Quadratics by Factoring",
+      "content": "Quadratic equation: $ax^2 + bx + c = 0$.\nSteps:\n1. Factor completely.\n2. Set each factor = 0.\n3. Solve for $x$.\n\nExample: $x^2 - x - 6 = (x-3)(x+2)$ → $x=3$ or $x=-2$",
+      "video": "https://www.youtube.com/watch?v=aUKaxKwOUvU",
+      "image": "/public/images/last_thumb1457714199.jpg",
+      "supplementary": "https://www.youtube.com/watch?v=qeByhTF8WEw"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Solve $x^2 - x - 6 = 0$",
+          "options": ["x=3 or x=-2", "x=2 or x=3", "x=-3 or x=2", "x=1 or x=-6"],
+          "answer": 0
+        },
+        {
+          "question": "Solve $x^2 + 5x + 6 = 0$",
+          "options": ["x=-2 or x=-3", "x=2 or x=3", "x=-1 or x=-6", "x=1 or x=6"],
+          "answer": 0
+        },
+        {
+          "question": "Solve $2x^2 - 8x = 0$",
+          "options": ["x=0 or x=4", "x=2 or x=-2", "x=1 or x=4", "x=-4 or x=0"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Quadratic Formula",
+      "content": "Quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n- Works for all quadratics\n- Discriminant ($b^2-4ac$) tells number of solutions\n\nExample: $x^2 + 2x - 3 = 0$ → $x = [-2 \\pm \\sqrt{4+12}]/2 = 1$ or $-3$",
+      "video": "https://www.youtube.com/watch?v=Ur3GLETKaNo",
+      "image": "public/images/R (1).jpg",
+      "supplementary": "https://math.libretexts.org/Courses/Coastline_College/Math_C045%3A_Beginning_and_Intermediate_Algebra_(Tran)/11%3A_Quadratic_Equations_and_Functions/11.04%3A_Solve_Quadratic_Equations_Using_the_Quadratic_Formula"
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Solve $x^2 + 2x - 3 = 0$ using quadratic formula",
+          "options": ["x=1 or x=-3", "x=-1 or x=3", "x=3 or x=-1", "x=-3 or x=1"],
+          "answer": 0
+        },
+        {
+          "question": "Solve $2x^2 - 4x - 6 = 0$",
+          "options": ["x=3 or x=-1", "x=2 or x=-3", "x=3 or x=1", "x=-2 or x=3"],
+          "answer": 0
+        },
+        {
+          "question": "Solve $x^2 - 4x + 3 = 0$",
+          "options": ["x=1 or x=3", "x=3 or x=-1", "x=0 or x=3", "x=-1 or x=4"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 8: Linear-Quadratic Systems",
+      "content": "Solve systems with one linear and one quadratic equation.\nSteps:\n1. Substitute linear equation into quadratic.\n2. Solve quadratic for $x$.\n3. Substitute $x$ back to find $y$.\n\nExample: $y = x + 1$, $y = x^2$ → $x^2 = x + 1$ → $x=0$ or $1$ → $y=1$ or $2$",
+      "video": "https://www.youtube.com/watch?v=g1-zG0eNKTM",
+      "image": null,
+      "supplementary": "https://www.mathsisfun.com/algebra/systems-linear-quadratic-equations.html"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 8b: Graphing Linear-Quadratic Systems",
+      "content": "Graphing helps visualize solutions. Linear line intersects parabola at solution points.\nExample: $y = 2x - 3$, $y = x^2$ → intersection points: (1,-1) and (-2,-7)",
+      "video": "https://www.youtube.com/watch?v=kskHXX15304",
+      "image": "/public/gifs/Graph3.gif",
+      "supplementary": null
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "question": "Solve the system: $y = x + 1$, $y = x^2$",
+          "options": ["x=0 or x=1", "x=-1 or x=2", "x=1 or x=2", "x=-1 or x=0"],
+          "answer": 0
+        },
+        {
+          "question": "Solve the system: $y = 2x - 3$, $y = x^2$",
+          "options": ["x=1 or x=-2", "x=3 or x=0", "x=-1 or x=2", "x=2 or x=-1"],
+          "answer": 0
+        },
+        {
+          "question": "Solve the system: $y = x$, $y = x^2 - 2$",
+          "options": ["x=-1 or x=2", "x=1 or x=-2", "x=0 or x=2", "x=-2 or x=1"],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

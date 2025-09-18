@@ -1,0 +1,116 @@
+{
+  "unit": "Discrete Functions",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Sequences - Part 1",
+      "content": "A sequence is an ordered list of numbers that follows a specific pattern. There are two common types of sequences:\n- Arithmetic sequence: each term differs from the previous term by a constant difference $d$. \n  - Formula: $$a_n = a_1 + (n-1)d$$\n  - Example: 2, 5, 8, 11 → here $d = 3$\n- Geometric sequence: each term is obtained by multiplying the previous term by a constant ratio $r$.\n  - Formula: $$a_n = a_1 \\cdot r^{n-1}$$\n  - Example: 3, 6, 12, 24 → here $r = 2$.\nUnderstanding the type of sequence helps us predict future terms and solve problems efficiently.",
+      "video": "https://www.youtube.com/watch?v=p-rc5mTDt9E",
+      "image": "/public/images/1718798497.webp",
+      "supplementary": "https://www.mathsisfun.com/algebra/sequences-series.html"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Sequences - Part 2",
+      "content": "Tips for working with sequences:\n- Identify the type by checking if the difference (arithmetic) or ratio (geometric) is constant.\n- Write out the first few terms to ensure the pattern is correct.\n- Use the formulas to find specific terms or solve for missing values.",
+      "video": "https://www.youtube.com/watch?v=JsPMNgg4fTc",
+      "image": "/public/images/Arithmetic-Geometric-Sequence.jpg",
+      "supplementary": "https://www.mathsisfun.com/algebra/sequences-series.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 1 Quiz",
+      "questions": [
+        {
+          "question": "What is the 5th term of the arithmetic sequence 2,5,8,...?",
+          "options": ["14", "15", "16", "17"],
+          "answer": "14"
+        },
+        {
+          "question": "What is the 4th term of the geometric sequence 3,6,12,...?",
+          "options": ["24", "18", "36", "48"],
+          "answer": "24"
+        },
+        {
+          "question": "Which of the following sequences is arithmetic?",
+          "options": ["2,4,8,16", "1,3,5,7", "3,6,12,24", "2,6,18,54"],
+          "answer": "1,3,5,7"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Series - Part 1",
+      "content": "A series is the sum of the terms in a sequence. There are formulas to calculate series sums efficiently:\n- Arithmetic series sum: $$S_n = \\frac{n}{2} (a_1 + a_n)$$\n  - Example: sum of 2 + 5 + 8 + 11 → $$S_4 = \\frac{4}{2} (2+11) = 26$$\n- Geometric series sum (finite): $$S_n = a_1 \\frac{1-r^n}{1-r}, \\quad r \\neq 1$$\nThese formulas save time compared to adding each term manually.",
+      "video": "https://www.youtube.com/watch?v=Tj89FA-d0f8",
+      "image": "/public/images/formula for arithmetic and geometric progressions and series.PNG",
+      "supplementary": "https://www.purplemath.com/modules/series.htm?utm_source=chatgpt.com"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Series - Part 2",
+      "content": "For infinite geometric series where $|r|<1$, the sum converges to a fixed value:\n$$S = \\frac{a_1}{1-r}$$\n- Example: 1 + 1/2 + 1/4 + 1/8 + ... → $$S = \\frac{1}{1-1/2} = 2$$\nSteps to solve series problems:\n1. Identify the type of series (arithmetic or geometric).\n2. Determine if it is finite or infinite.\n3. Apply the appropriate formula to calculate the sum.",
+      "video": "https://www.youtube.com/watch?v=eRRjDCHlDwg",
+      "image": "n/a",
+      "supplementary": "https://mathspace.co/textbooks/syllabuses/Syllabus-460/topics/Topic-8688/subtopics/Subtopic-115190/?activeTab=theory"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 2 Quiz",
+      "questions": [
+        {
+          "question": "What is the sum of the first 4 terms of the arithmetic sequence 3,6,9,12?",
+          "options": ["24", "30", "36", "40"],
+          "answer": "30"
+        },
+        {
+          "question": "What is the sum of the infinite geometric series 2 + 1 + 0.5 + 0.25 + ... ?",
+          "options": ["3.5", "4", "5", "2.5"],
+          "answer": "4"
+        },
+        {
+          "question": "What is the formula for the sum of an arithmetic series $S_n$?",
+          "options": ["$$S_n = a_1 + n*d$$", "$$S_n = \\frac{n}{2}(a_1 + a_n)$$", "$$a_1*r^{n-1}$$", "$$\\frac{a_1}{1-r}$$"],
+          "answer": "$$S_n = \\frac{n}{2}(a_1 + a_n)$$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Recursive Functions - Part 1",
+      "content": "A recursive function defines each term using one or more previous terms. This is common in sequences like the Fibonacci sequence:\n$$F_1 = 1, \\quad F_2 = 1$$\n$$F_n = F_{n-1} + F_{n-2}, \\quad n \\ge 3$$\nStrategy: start with the initial terms and repeatedly apply the formula to calculate subsequent terms.",
+      "video": "https://www.youtube.com/watch?v=IFHZQ6MaG6w",
+      "image": "/public/images/recursive-sequences-l.jpg",
+      "supplementary": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:sequences/x2f8bb11595b61c86:constructing-arithmetic-sequences/a/writing-recursive-formulas-for-arithmetic-sequences"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Recursive Functions - Part 2",
+      "content": "Tips for working with recursive functions:\n- Write the terms in order to avoid mistakes.\n- Check that each term follows the pattern correctly.\n- Recursive sequences are useful in computer science, combinatorics, and mathematical problem-solving.",
+      "video": "https://www.youtube.com/watch?v=dLPs0-G_Hkg",
+      "image": "n/a",
+      "supplementary": "n/a"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 3 Quiz",
+      "questions": [
+        {
+          "question": "What is the 5th Fibonacci number?",
+          "options": ["3", "5", "4", "6"],
+          "answer": "5"
+        },
+        {
+          "question": "For the recursive sequence defined by $$a_1=2$$ and $$a_n = a_{n-1}+3$$, what is the 4th term?",
+          "options": ["8", "11", "10", "9"],
+          "answer": "11"
+        },
+        {
+          "question": "A recursive formula defines terms using?",
+          "options": ["previous terms", "next terms", "average", "sum of all terms"],
+          "answer": "previous terms"
+        }
+      ]
+    }
+  ]
+}

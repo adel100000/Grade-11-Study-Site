@@ -1,0 +1,194 @@
+{
+  "unit": "Transformations",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Transformations - Part 1",
+      "content": "Transformations are changes to the appearance of a graph without fundamentally altering the x-values of the function. There are four main types of transformations:\n1. Translations (shifts) - moving the graph up, down, left, or right.\n2. Reflections - flipping the graph over an axis.\n3. Stretching and compressing (dilations) - making the graph taller or shorter, wider or narrower.\n4. Rotations - turning the graph around a point (less common in basic functions).",
+      "video": "https://www.youtube.com/watch?v=kjBxQgesgPM",
+      "gif": "/public/gifs/3df64694-f7b6-4319-9578-a399f7d4f3c0.gif",
+      "supplementary": "https://www.youtube.com/watch?v=Q4FzgST6U6Q&t=6s"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Transformations - Part 2",
+      "content": "Vertical shifts occur when we add or subtract a constant from the function: $y = f(x) + k$ moves the graph up or down by $k$ units. Horizontal shifts occur inside the function: $y = f(x-h)$ moves the graph right if $h>0$ and left if $h<0$. Reflections over the x-axis are represented as $y = -f(x)$, which flips the graph vertically. Vertical stretching or compressing is controlled by multiplying the function by a constant: $y = a \\cdot f(x)$. If $|a| > 1$, the graph stretches vertically; if $0 < |a| < 1$, the graph compresses vertically.\n\nExample: $y = f(x) + 3$ shifts the graph of $f(x)$ upward by 3 units.",
+      "video": "https://www.youtube.com/watch?v=C-Wupj4yz2Q",
+      "image": "/public/images/CNX_Precalc_Figure_01_05_0012.jpg",
+      "supplementary": "https://www.youtube.com/watch?v=Tmdrjs9xufc&t=888s"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 1 Quiz",
+      "questions": [
+        {
+          "question": "Which transformation moves a graph vertically?",
+          "options": ["Reflection", "Translation", "Dilation", "Rotation"],
+          "answer": "Translation"
+        },
+        {
+          "question": "What does $y = -f(x)$ do to the graph?",
+          "options": ["Vertical shift up", "Horizontal shift right", "Reflect over x-axis", "Compress vertically"],
+          "answer": "Reflect over x-axis"
+        },
+        {
+          "question": "If $|a| > 1$ in $y = a \\cdot f(x)$, what happens?",
+          "options": ["Graph compresses", "Graph stretches vertically", "Graph reflects", "Graph shifts left"],
+          "answer": "Graph stretches vertically"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Transformations of $y = x^2$ - Part 1",
+      "content": "Quadratic functions, like $y = x^2$, can be transformed using vertical and horizontal shifts. For a vertical shift, $y = x^2 + k$ moves the graph up if $k>0$ or down if $k<0$. For a horizontal shift, $y = (x-h)^2$ moves the graph right if $h>0$ or left if $h<0$.",
+      "video": "https://www.youtube.com/watch?v=H8OQtxSRe_k",
+      "image": "/public/images/OIP (2).webp",
+      "supplementary": "https://www.mathsisfun.com/sets/function-transformations.html"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Transformations of $y = x^2$ - Part 2",
+      "content": "Other transformations include:\n- Vertical stretch or compression: $y = a \\cdot x^2$. The graph stretches vertically if $|a| > 1$ and compresses if $0 < |a| < 1$.\n- Reflection: $y = -x^2$ reflects the graph over the x-axis.\n\nExample: $y = -2 \\cdot (x-3)^2 + 5$ represents a reflection over the x-axis, a vertical stretch by a factor of 2, a shift right by 3 units, and a shift up by 5 units.",
+      "video": "https://www.youtube.com/watch?v=MkP1LJR2PyM&t=334s",
+      "image": "/public/images/Graph-Transformations-What-is.webp",
+      "supplementary": "https://www.mathsisfun.com/sets/function-transformations.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 2 Quiz",
+      "questions": [
+        {
+          "question": "Graph of $y = 2x^2$ compared to $y = x^2$ is?",
+          "options": ["Compressed", "Stretched vertically", "Reflected", "Shifted up"],
+          "answer": "Stretched vertically"
+        },
+        {
+          "question": "Graph of $y = -x^2$ is?",
+          "options": ["Shifted up", "Reflected over x-axis", "Shifted right", "Compressed"],
+          "answer": "Reflected over x-axis"
+        },
+        {
+          "question": "For $y = (x-4)^2 + 2$, the graph shifts how?",
+          "options": ["Right 4, up 2", "Left 4, up 2", "Right 2, up 4", "Left 2, down 4"],
+          "answer": "Right 4, up 2"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Transformations of $y = \\sqrt{x}$ - Part 1",
+      "content": "Square root functions, $y = \\sqrt{x}$, can also be shifted vertically or horizontally. A vertical shift is written as $y = \\sqrt{x} + k$ and moves the graph up or down by $k$ units. A horizontal shift is written as $y = \\sqrt{x-h}$ and moves the graph right if $h>0$ or left if $h<0$.",
+      "video": "https://www.youtube.com/watch?v=6JDWybXNCpI",
+      "image": "/public/images/OIP (3).webp",
+      "supplementary": "https://mathspace.co/textbooks/syllabuses/Syllabus-460/topics/Topic-8679/subtopics/Subtopic-115081/?activeTab=theory"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Transformations of $y = \\sqrt{x}$ - Part 2",
+      "content": "Other transformations include:\n- Vertical stretch or compression: $y = a \\cdot \\sqrt{x}$. The graph stretches if $|a|>1$ and compresses if $0<|a|<1$.\n- Reflection: $y = -\\sqrt{x}$ reflects the graph over the x-axis.\n\nExample: $y = -\\sqrt{x-4} + 2$ represents a reflection over the x-axis, a shift right by 4 units, and a shift up by 2 units.",
+      "video": "https://www.youtube.com/watch?v=SLV600BpHpE",
+      "image": "/public/images/screen-shot-2018-08-26-at-11-31-22-am_orig.png",
+      "supplementary": "https://mathspace.co/textbooks/syllabuses/Syllabus-460/topics/Topic-8679/subtopics/Subtopic-115081/?activeTab=theory"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 3 Quiz",
+      "questions": [
+        {
+          "question": "$y = \\sqrt{x-5} + 3$ shifts the graph how?",
+          "options": ["Right 5, up 3", "Left 5, down 3", "Right 3, up 5", "Left 3, down 5"],
+          "answer": "Right 5, up 3"
+        },
+        {
+          "question": "$y = -\\sqrt{x}$ is?",
+          "options": ["Shifted up", "Reflected over x-axis", "Shifted right", "Compressed"],
+          "answer": "Reflected over x-axis"
+        },
+        {
+          "question": "$y = 2\\sqrt{x}$ stretches the graph how?",
+          "options": ["Vertically", "Horizontally", "Reflects", "Shifts left"],
+          "answer": "Vertically"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Transformations of $y = 1/x$ - Part 1",
+      "content": "Reciprocal functions, $y = 1/x$, can be transformed using horizontal and vertical shifts. A horizontal shift is written as $y = 1/(x-h)$, moving the graph right if $h>0$ and left if $h<0$. A vertical shift is written as $y = 1/x + k$ and moves the graph up or down by $k$ units.",
+      "video": "https://www.youtube.com/watch?v=OLWj3ZJsB_Y",
+      "image": "/public/images/52134d9feb3bed38744e4458f16c02ce-image_scan.png",
+      "supplementary": "https://study.com/academy/lesson/transformations-of-the-1-x-function.html?msockid=26aed8c4793f6d3b3e4acaa478956cd1"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Transformations of $y = 1/x$ - Part 2",
+      "content": "Other transformations include:\n- Vertical stretch or compression: $y = a \\cdot (1/x)$. The graph stretches if $|a|>1$ and compresses if $0<|a|<1$.\n- Reflection: $y = -1/x$ reflects the graph over the x-axis.\n\nExample: $y = -2/(x+1) + 3$ represents a reflection over the x-axis, a vertical stretch by a factor of 2, a shift left by 1 unit, and a shift up by 3 units.",
+      "image": "/public/images/OIP (4).webp",
+      "supplementary": "https://study.com/academy/lesson/transformations-of-the-1-x-function.html?msockid=26aed8c4793f6d3b3e4acaa478956cd1"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 4 Quiz",
+      "questions": [
+        {
+          "question": "Graph of $y = -1/(x-2)$ compared to $y = 1/x$ is?",
+          "options": ["Reflected and shifted right 2", "Stretched and shifted left 2", "Compressed and reflected", "Shifted up 2"],
+          "answer": "Reflected and shifted right 2"
+        },
+        {
+          "question": "$y = 3/(x+1)$ shifts how?",
+          "options": ["Left 1", "Right 1", "Up 3", "Down 3"],
+          "answer": "Left 1"
+        },
+        {
+          "question": "$y = -1/x$ stretches how?",
+          "options": ["Vertically", "Horizontally", "Compresses", "Shifts left"],
+          "answer": "Vertically"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Inverse of a Function - Part 1",
+      "content": "An inverse function swaps the input and output values of the original function. Steps to find an inverse:\n1. Replace $f(x)$ with $y$.\n2. Swap $x$ and $y$.\n3. Solve the equation for $y$.\nNot all functions have inverses; a function must pass the horizontal line test to be one-to-one.\n\nExample: $f(x) = x + 3 → f^{-1}(x) = x - 3$",
+      "video": "https://www.youtube.com/watch?v=j3f88V9M0qM",
+      "image": "/public/images/math-how-to-find-the-inverse-of-a-function.png",
+      "supplementary": "https://www.youtube.com/watch?v=2zeYEx4eTdc"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Inverse of a Function - Part 2 (Quadratic)",
+      "content": "To find the inverse of a quadratic function, it is necessary to restrict the domain so that the function is one-to-one. For example, if $f(x) = x^2$ with $x ≥ 0$, the inverse is $f^{-1}(x) = \\sqrt{x}$. Always check that $f(f^{-1}(x)) = x$ and $f^{-1}(f(x)) = x$ to verify the inverse.",
+      "video": "https://www.youtube.com/watch?v=1q1gJM2NaoU",
+      "supplementary": "https://www.purplemath.com/modules/invrsfcn3.htm"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Inverse of a Function - Part 3 (Reciprocal)",
+      "content": "The inverse of a reciprocal function $f(x) = 1/x$, with $x ≠ 0$, is itself: $f^{-1}(x) = 1/x$. The domain and range restrictions remain the same.",
+      "video": "https://www.youtube.com/watch?v=JJISnHxwVoQ"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 5 Quiz",
+      "questions": [
+        {
+          "question": "Inverse of $f(x) = x - 7$?",
+          "options": ["$f^{-1}(x) = x + 7$", "$f^{-1}(x) = x - 7$", "$f^{-1}(x) = -x + 7$", "$f^{-1}(x) = 7 - x$"],
+          "answer": "$f^{-1}(x) = x + 7$"
+        },
+        {
+          "question": "Inverse of $f(x) = x^2, x ≥ 0$?",
+          "options": ["$√x$", "$-√x$", "$x^2$", "$x/2$"],
+          "answer": "$√x$"
+        },
+        {
+          "question": "Inverse of $f(x) = 1/x$?",
+          "options": ["$1/x$", "$-1/x$", "$x$", "$-x$"],
+          "answer": "$1/x$"
+        }
+      ]
+    }
+  ]
+}

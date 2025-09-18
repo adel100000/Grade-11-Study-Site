@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Study Tool Design System - Purple/Blue Dark Theme */
+
+@layer base {
+  :root {
+    /* Dark background theme */
+    --background: 240 10% 8%;
+    --foreground: 240 10% 95%;
+
+    /* Card system */
+    --card: 240 8% 12%;
+    --card-foreground: 240 10% 95%;
+    --card-hover: 240 8% 15%;
+
+    /* Subject colors */
+    --math-primary: 270 75% 60%;
+    --math-secondary: 280 65% 50%;
+    --physics-primary: 220 75% 60%;
+    --physics-secondary: 210 65% 50%;
+
+    /* Interactive elements */
+    --primary: 260 70% 65%;
+    --primary-foreground: 240 10% 10%;
+    --primary-hover: 260 70% 70%;
+
+    --secondary: 240 8% 18%;
+    --secondary-foreground: 240 10% 85%;
+    --secondary-hover: 240 8% 22%;
+
+    /* Feedback colors */
+    --success: 142 76% 36%;
+    --success-foreground: 240 10% 95%;
+    --error: 0 84% 60%;
+    --error-foreground: 240 10% 95%;
+
+    /* Borders and accents */
+    --border: 240 8% 20%;
+    --accent: 240 8% 16%;
+    --accent-foreground: 240 10% 85%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--math-primary)), hsl(var(--physics-primary)));
+    --gradient-math: linear-gradient(135deg, hsl(var(--math-primary)), hsl(var(--math-secondary)));
+    --gradient-physics: linear-gradient(135deg, hsl(var(--physics-primary)), hsl(var(--physics-secondary)));
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(var(--card-hover)));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 20px hsl(var(--primary) / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  /* Subject Card Variants */
+  .subject-card {
+    @apply relative overflow-hidden rounded-3xl p-8 transition-all duration-300 ease-out;
+    @apply bg-card border border-border shadow-[var(--shadow-card)];
+    @apply hover:scale-[1.02] hover:shadow-[var(--shadow-card-hover)];
+    @apply cursor-pointer select-none;
+  }
+
+  .subject-card.math {
+    @apply bg-gradient-to-br from-[hsl(var(--math-primary))] to-[hsl(var(--math-secondary))];
+    @apply hover:shadow-[0_8px_30px_hsl(var(--math-primary)/0.4)];
+  }
+
+  .subject-card.physics {
+    @apply bg-gradient-to-br from-[hsl(var(--physics-primary))] to-[hsl(var(--physics-secondary))];
+    @apply hover:shadow-[0_8px_30px_hsl(var(--physics-primary)/0.4)];
+  }
+
+  /* Unit Card Variants */
+  .unit-card {
+    @apply relative overflow-hidden rounded-2xl p-6 transition-all duration-300 ease-out;
+    @apply bg-card border border-border shadow-[var(--shadow-card)];
+    @apply hover:bg-[hsl(var(--card-hover))] hover:scale-[1.02] hover:shadow-[var(--shadow-card-hover)];
+    @apply cursor-pointer select-none;
+  }
+
+  /* Quiz Feedback */
+  .quiz-correct {
+    @apply bg-green-500/20 border-green-500/50 text-green-400;
+  }
+
+  .quiz-incorrect {
+    @apply bg-red-500/20 border-red-500/50 text-red-400;
+  }
+
+  /* Progress Bar */
+  .progress-bar {
+    @apply bg-accent rounded-full overflow-hidden;
+  }
+
+  .progress-fill {
+    @apply h-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--primary-hover))];
+    @apply transition-all duration-500 ease-out;
+  }
+
+  /* Navigation Buttons */
+  .nav-button {
+    @apply px-6 py-3 rounded-xl font-medium transition-all duration-200;
+    @apply bg-secondary text-secondary-foreground;
+    @apply hover:bg-[hsl(var(--secondary-hover))] hover:scale-105;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100;
+  }
+
+  .nav-button.primary {
+    @apply bg-primary text-primary-foreground;
+    @apply hover:bg-[hsl(var(--primary-hover))];
+  }
+
+  /* Slide Animations */
+  .slide-enter {
+    @apply opacity-0 translate-x-8;
+  }
+
+  .slide-enter-active {
+    @apply opacity-100 translate-x-0 transition-all duration-300 ease-out;
+  }
+
+  .slide-exit {
+    @apply opacity-100 translate-x-0;
+  }
+
+  .slide-exit-active {
+    @apply opacity-0 -translate-x-8 transition-all duration-300 ease-out;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-[hsl(var(--math-primary))] to-[hsl(var(--physics-primary))];
+    @apply bg-clip-text text-transparent;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    }
+    to {
+      box-shadow: 0 0 30px hsl(var(--primary) / 0.6);
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "unit": "Electricity and Magnetism",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Current Electricity (Part 1)",
+      "content": "Electric current is the flow of electric charge over time. The current is defined as the rate of change of charge: $ I = \\frac{\\Delta Q}{\\Delta t} $, where $ I $ is measured in amperes (A). Electric charge can be expressed as $ Q = ne $, where $ n $ is the number of electrons and $ e = 1.602 \\times 10^{-19} \\, \\text{C} $ is the elementary charge. By convention, current direction is taken as the flow of positive charges from the positive terminal to the negative terminal. On the microscopic level, the drift velocity of electrons in a conductor can be expressed as $ v_d = \\frac{I}{n A e} $, where $ A $ is the cross-sectional area of the conductor.",
+      "video": "https://www.youtube.com/watch?v=r-SCyD7f_zI",
+      "image": "/public/images/maxresdefault (9).jpg",
+      "supplementary": "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Current Electricity (Part 2)",
+      "content": "Ohm's Law describes the relationship between voltage, current, and resistance: $ V = IR $. Electrical power in a circuit can be written as $ P = IV = I^2 R = \\frac{V^2}{R} $. The energy delivered by an electrical device over a period of time is given by $ E = P t = IVt $. These relationships allow us to calculate how circuits consume and transform energy in practical situations.",
+      "video": "https://www.youtube.com/watch?v=HsLLq6Rm5tU&t=19s",
+      "image": "/public/images/45f4c4_ec24b9b205d147e0a0677993293357bd~mv2.png",
+      "supplementary": "https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Current Electricity (Part 3)",
+      "content": "Resistors can be combined in series or parallel. In a series circuit, resistances add directly: $ R_{\\text{total}} = R_1 + R_2 + \\dots $. In a parallel circuit, the reciprocal of the total resistance equals the sum of reciprocals: $ \\dfrac{1}{R_{\\text{total}}} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\dots $. Power in circuits can also be expressed using the form that matches what is constant: in series, current is the same in each element so $ P = I^2 R $ is convenient; in parallel, voltage across each branch is the same so $ P = \\dfrac{V^2}{R} $ is convenient.",
+      "video": "https://www.youtube.com/watch?v=dEuBykX5_B4",
+      "image": "/public/images/8db6109a648169f6f5dc029c6059484a.jpg",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for current?",
+      "options": ["I = ΔQ/Δt", "V = IR", "P = IV", "E = Pt"],
+      "answer": "I = ΔQ/Δt"
+    },
+    {
+      "type": "quiz",
+      "question": "Ohm's Law formula?",
+      "options": ["V = IR", "I = ΔQ/Δt", "P = IV", "R = V/I²"],
+      "answer": "V = IR"
+    },
+    {
+      "type": "quiz",
+      "question": "Energy in a circuit formula?",
+      "options": ["E = Pt", "P = IV", "I = ΔQ/Δt", "V = IR"],
+      "answer": "E = Pt"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Circuit Analysis (Series)",
+      "content": "In a series circuit, the same current flows through every component: $ I_{\\text{total}} = I_1 = I_2 = \\dots $. The total voltage is shared among components: $ V_{\\text{total}} = V_1 + V_2 + \\dots $. The resistances add up directly: $ R_{\\text{total}} = R_1 + R_2 + \\dots $. Power dissipated in each resistor can be calculated with $ P = I^2 R $ using the common series current.",
+      "video": "https://www.youtube.com/watch?v=ZQurBlu35Fo",
+      "image": "/public/images/Series_Circuit_Diagram_Labeled_6677.jpg",
+      "supplementary": "https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/what-are-series-and-parallel-circuits/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Circuit Analysis (Parallel)",
+      "content": "In a parallel circuit, the voltage across each branch is the same: $ V_{\\text{total}} = V_1 = V_2 = \\dots $. The total current splits among branches: $ I_{\\text{total}} = I_1 + I_2 + \\dots $. The total resistance is found using reciprocals: $ \\dfrac{1}{R_{\\text{total}}} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\dots $. Power in parallel circuits is conveniently computed as $ P = \\dfrac{V^2}{R} $ using the common branch voltage.",
+      "video": "https://www.youtube.com/watch?v=jNFXtjt5muI",
+      "image": "/public/images/R.gif",
+      "supplementary": "https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/what-are-series-and-parallel-circuits/"
+    },
+    {
+      "type": "quiz",
+      "question": "In series circuits, current is?",
+      "options": ["Same through all components", "Divides", "Zero", "Infinite"],
+      "answer": "Same through all components"
+    },
+    {
+      "type": "quiz",
+      "question": "In parallel circuits, voltage is?",
+      "options": ["Same across branches", "Divides", "Zero", "Infinite"],
+      "answer": "Same across branches"
+    },
+    {
+      "type": "quiz",
+      "question": "Total resistance in series?",
+      "options": ["R_total = R₁ + R₂ + ...", "1/R_total = 1/R₁ + 1/R₂ + ...", "R_total = R₁R₂", "R_total = R₁ - R₂"],
+      "answer": "R_total = R₁ + R₂ + ..."
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Resistance",
+      "content": "Resistance is determined by the material and dimensions of a conductor. The relationship is $ R = \\rho \\dfrac{L}{A} $, where $ \\rho $ is the resistivity of the material (in $ \\Omega\\,\\text{m} $), $ L $ is the length, and $ A $ is the cross-sectional area. Materials with lower resistivity (such as copper and aluminum) are good conductors, while materials with higher resistivity (such as rubber or glass) are good insulators.",
+      "video": "",
+      "image": "",
+      "supplementary": ""
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Resistance (Temperature Effects)",
+      "content": "The resistance of most metallic conductors increases with temperature. A useful model is $ R = R_0\\,[1 + \\alpha (T - T_0)] $, where $ R_0 $ is the resistance at reference temperature $ T_0 $, and $ \\alpha $ is the temperature coefficient of resistance. Conductors generally have low resistivity, while insulators have very high resistivity; semiconductors can show the opposite trend with temperature.",
+      "video": "https://www.youtube.com/watch?v=ue6w5aXhxjU",
+      "image": "null",
+      "supplementary": "https://www.electricalvolt.com/effect-of-temperature-on-resistance/"
+    },
+    {
+      "type": "quiz",
+      "question": "Resistance formula based on material and dimensions?",
+      "options": ["R = ρL/A", "V = IR", "P = IV", "I = ΔQ/Δt"],
+      "answer": "R = ρL/A"
+    },
+    {
+      "type": "quiz",
+      "question": "Effect of temperature on resistance?",
+      "options": ["R = R₀[1 + α(T-T₀)]", "R = ρL/A", "V = IR", "I = ΔQ/Δt"],
+      "answer": "R = R₀[1 + α(T-T₀)]"
+    },
+    {
+      "type": "quiz",
+      "question": "Good conductors have?",
+      "options": ["Low resistivity", "High resistivity", "High temperature coefficient", "No current flow"],
+      "answer": "Low resistivity"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Magnetism (Part 1: Moving Charges)",
+      "content": "A charged particle moving through a magnetic field experiences a magnetic force given by $ \\vec{F} = q\\,(\\vec{v} \\times \\vec{B}) $, where $ q $ is the charge, $ \\vec{v} $ is velocity, and $ \\vec{B} $ is the magnetic field. The direction of this force is perpendicular to both $ \\vec{v} $ and $ \\vec{B} $ and can be found using the right-hand rule. The magnitude is $ F = q v B \\sin \\theta $, where $ \\theta $ is the angle between $ \\vec{v} $ and $ \\vec{B} $.",
+      "video": "https://www.youtube.com/watch?v=s94suB5uLWw",
+      "image": "/public/images/Magnetism-7-320.webp",
+      "supplementary": "https://edurev.in/chapter/52038_Magnetism-Physics-for-Grade-11"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Magnetism (Part 2: Current-Carrying Wire)",
+      "content": "A current-carrying wire in a magnetic field also experiences a force, expressed as $ \\vec{F} = I\\,(\\vec{L} \\times \\vec{B}) $. Here $ I $ is the current and $ \\vec{L} $ points along the wire with magnitude equal to the wire length in the field. The magnitude is $ F = I L B \\sin \\theta $. This effect is the basis for the operation of electric motors.",
+      "video": "https://www.youtube.com/watch?v=79_SF5AZtzo",
+      "image": "/public/images/4iM3O.jpg",
+      "supplementary": "https://edurev.in/chapter/52038_Magnetism-Physics-for-Grade-11"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Magnetism (Part 3: Magnetic Fields)",
+      "content": "A long straight current-carrying wire produces a magnetic field that circles the wire. The field strength at a distance $ r $ is $ B = \\dfrac{\\mu_0 I}{2\\pi r} $, where $ \\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{T}\\cdot\\text{m/A} $ is the permeability of free space. The field is measured in teslas (T).",
+      "video": "https://www.youtube.com/watch?v=79_SF5AZtzo",
+      "image": "null",
+      "supplementary": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.03%3A_Magnetic_Field_due_to_a_Thin_Straight_Wire"
+    },
+    {
+      "type": "quiz",
+      "question": "Force on moving charge in magnetic field?",
+      "options": ["F = q(v × B)", "F = IR", "F = mg", "F = ma"],
+      "answer": "F = q(v × B)"
+    },
+    {
+      "type": "quiz",
+      "question": "Force on current-carrying wire?",
+      "options": ["F = I(L × B)", "F = qE", "F = IR", "F = ma"],
+      "answer": "F = I(L × B)"
+    },
+    {
+      "type": "quiz",
+      "question": "Magnetic field around straight wire?",
+      "options": ["B = μ₀I / 2πr", "B = I/VR", "B = qvB", "B = IR"],
+      "answer": "B = μ₀I / 2πr"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Faraday's Law and EMF",
+      "content": "A changing magnetic field can induce an electromotive force (emf) in a circuit. This is Faraday's Law: $ \\text{emf} = -\\dfrac{d\\Phi}{dt} $, where $ \\Phi $ is the magnetic flux. Magnetic flux is defined as $ \\Phi = B A \\cos \\theta $, where $ B $ is magnetic field strength, $ A $ is the loop area, and $ \\theta $ is the angle between the field and the area's normal. Lenz's Law states that the induced current produces a magnetic effect that opposes the change in flux, which is why the minus sign appears in Faraday's Law.",
+      "video": "https://www.youtube.com/watch?v=mBVBE-5Ei2c",
+      "image": "/public/images/Faradays-Law.jpg",
+      "supplementary": "https://mathsandsciencelessons.com/courses/grade-11-faradays-law/"
+    },
+    {
+      "type": "quiz",
+      "question": "Faraday's Law formula?",
+      "options": ["EMF = -dΦ/dt", "V = IR", "P = IV", "F = qvB"],
+      "answer": "EMF = -dΦ/dt"
+    },
+    {
+      "type": "quiz",
+      "question": "Magnetic flux formula?",
+      "options": ["Φ = BA cosθ", "Φ = IR", "Φ = qvB", "Φ = P/t"],
+      "answer": "Φ = BA cosθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Lenz's Law states?",
+      "options": ["Induced current opposes change in flux", "Voltage divides across resistors", "Current is same in series", "Bends light around objects"],
+      "answer": "Induced current opposes change in flux"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: DC Motors",
+      "content": "A DC motor converts electrical energy into mechanical energy. When current flows through a coil in a magnetic field, the coil experiences a force that creates a torque and causes rotation. As the motor spins faster, a back emf is induced in the coil that opposes the applied voltage; this reduces the net voltage across the coil and limits the current at high speed, helping prevent overheating.",
+      "video": "https://www.youtube.com/watch?v=CWulQ1ZSE3c",
+      "image": "/public/images/pos-1-711x420.jpg",
+      "supplementary": "https://theengineeringmindset.com/dc-motor-explained/"
+    },
+    {
+      "type": "quiz",
+      "question": "Force on wire in magnetic field in motor?",
+      "options": ["F = ILB sinθ", "F = qE", "F = IR", "F = ma"],
+      "answer": "F = ILB sinθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Purpose of back EMF in DC motor?",
+      "options": ["Opposes applied voltage", "Increases current", "Reduces torque", "Changes direction of rotation"],
+      "answer": "Opposes applied voltage"
+    },
+    {
+      "type": "quiz",
+      "question": "DC motor converts?",
+      "options": ["Electrical → Mechanical", "Mechanical → Electrical", "Thermal → Electrical", "Mechanical → Thermal"],
+      "answer": "Electrical → Mechanical"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Kirchhoff's Laws",
+      "content": "Kirchhoff's Laws help analyze complex circuits. Kirchhoff's Current Law (KCL) states that the sum of currents entering a junction equals the sum of currents leaving: $ \\sum I_{\\text{in}} = \\sum I_{\\text{out}} $. Kirchhoff's Voltage Law (KVL) states that the algebraic sum of voltage changes around any closed loop is zero: $ \\sum V_{\\text{loop}} = 0 $. These laws, combined with Ohm's Law and the series/parallel resistance rules, allow us to solve multi-loop circuits systematically.",
+      "video": "https://www.youtube.com/watch?v=affa61AME68",
+      "image": "/public/images/OIP (19).webp",
+      "supplementary": "https://www.sciencefacts.net/kirchhoffs-law.html"
+    },
+    {
+      "type": "quiz",
+      "question": "KCL states?",
+      "options": ["ΣI_in = ΣI_out", "ΣV = 0", "V = IR", "F = qvB"],
+      "answer": "ΣI_in = ΣI_out"
+    },
+    {
+      "type": "quiz",
+      "question": "KVL states?",
+      "options": ["ΣV_loop = 0", "ΣI = 0", "V = IR", "P = IV"],
+      "answer": "ΣV_loop = 0"
+    },
+    {
+      "type": "quiz",
+      "question": "Kirchhoff's laws are used for?",
+      "options": ["Complex circuits with multiple loops", "Simple series only", "Single resistor only", "Single voltage source only"],
+      "answer": "Complex circuits with multiple loops"
+    }
+  ]
+}

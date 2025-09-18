@@ -1,0 +1,265 @@
+{
+  "unit": "Trigonometry",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Trig Review & Special Triangles - Part 1",
+      "content": "Let's start with a review of right triangle trigonometry. The main ratios are remembered using SOHCAHTOA:\n- $\\sin(\\theta) = \\frac{\\text{opposite side}}{\\text{hypotenuse}}$\n- $\\cos(\\theta) = \\frac{\\text{adjacent side}}{\\text{hypotenuse}}$\n- $\\tan(\\theta) = \\frac{\\text{opposite side}}{\\text{adjacent side}}$\n\nBefore solving any problem, always identify which side is opposite the angle $\\theta$, which is adjacent, and which is the hypotenuse. This step ensures you apply the correct ratio.",
+      "video": "https://www.youtube.com/watch?v=G1XbHME5y4k",
+      "image": "/public/images/OIP (6).webp",
+      "supplementary": "https://www.mathsisfun.com/algebra/trigonometry.html"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Trig Review & Special Triangles - Part 2",
+      "content": "Special triangles help us find side lengths quickly without a calculator. \n- In a 30°-60°-90° triangle, the sides are in the ratio 1 (short leg) : $\\sqrt{3}$ (long leg) : 2 (hypotenuse). \n- In a 45°-45°-90° triangle, the sides are in the ratio 1 : 1 : $\\sqrt{2}$.\nUse these ratios to find missing sides by multiplying the ratio by the known side length.",
+      "video": "https://www.youtube.com/watch?v=p70UBGCHZrQ",
+      "image": "/public/images/screen-shot-2020-10-28-at-4.52.27-pm.png",
+      "supplementary": "https://www.onlinemathlearning.com/trig-special-angles.html#google_vignette"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 1 Quiz",
+      "questions": [
+        {
+          "question": "In a 30-60-90 triangle, hypotenuse = 10, short leg = ?",
+          "options": ["$5$", "$10$", "$\\sqrt{3}$", "$2$"],
+          "answer": "$5$"
+        },
+        {
+          "question": "In a 45-45-90 triangle, hypotenuse = $\\sqrt{2}$, legs = ?",
+          "options": ["$1$", "$\\sqrt{2}$", "$2$", "$1/2$"],
+          "answer": "$1$"
+        },
+        {
+          "question": "$\\sin(\\theta)$ in a right triangle = ?",
+          "options": ["$\\text{opp}/\\text{hyp}$", "$\\text{adj}/\\text{hyp}$", "$\\text{opp}/\\text{adj}$", "$\\text{hyp}/\\text{opp}$"],
+          "answer": "$\\text{opp}/\\text{hyp}$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Ratios for Triangles > 90°",
+      "content": "For angles greater than 90°, we use reference angles to calculate trigonometric ratios. A reference angle is the acute angle formed with the x-axis. The formulas are:\n- $\\sin(\\theta) = \\sin(180° - \\theta)$\n- $\\cos(\\theta) = -\\cos(180° - \\theta)$\n- $\\tan(\\theta) = -\\tan(180° - \\theta)$\n\nExample: $\\sin(120°) = \\sin(180° - 120°) = \\sin(60°) = \\frac{\\sqrt{3}}{2}$. This lets us handle obtuse angles easily.",
+      "video": "https://www.youtube.com/watch?v=efna49U4vsw",
+      "image": "/public/images/reference-angles-l.jpg",
+      "supplementary": "https://en.wikipedia.org/wiki/Reference_angle"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 2 Quiz",
+      "questions": [
+        {
+          "question": "$\\sin(150°) = ?$",
+          "options": ["$1/2$", "$-1/2$", "$\\sqrt{3}/2$", "$-\\sqrt{3}/2$"],
+          "answer": "$1/2$"
+        },
+        {
+          "question": "$\\cos(120°) = ?$",
+          "options": ["$-1/2$", "$1/2$", "$-\\sqrt{3}/2$", "$\\sqrt{3}/2$"],
+          "answer": "$-1/2$"
+        },
+        {
+          "question": "$\\tan(135°) = ?$",
+          "options": ["$-1$", "$1$", "$0$", "$\\sqrt{3}$"],
+          "answer": "$-1$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Solving Trig Equations",
+      "content": "To solve equations like $\\sin(x) = 1/2$, follow these steps:\n1. Find the reference angle: for $\\sin(x) = 1/2$, the reference angle $x_{ref} = 30°$.\n2. Determine the quadrants where sine is positive or negative. Sine is positive in Quadrants I and II.\n3. Write the general solution using $x = x_{ref} + 360°k$ or $x = 180° - x_{ref} + 360°k$, where $k \\in \\mathbb{Z}$.\n4. Apply interval restrictions if given, such as $0° \\le x \\le 360°$.",
+      "video": "https://www.youtube.com/watch?v=SDQwo-KAIEA",
+      "image": "n/a",
+      "supplementary": "n/a"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 3 Quiz",
+      "questions": [
+        {
+          "question": "Solve $\\sin(x) = \\frac{\\sqrt{2}}{2}$, $0° \\le x \\le 360°$",
+          "options": ["$45°, 135°$", "$30°, 150°$", "$60°, 120°$", "$90°, 270°$"],
+          "answer": "$45°, 135°$"
+        },
+        {
+          "question": "Solve $\\cos(x) = -1/2$, $0° \\le x \\le 360°$",
+          "options": ["$120°, 240°$", "$60°, 300°$", "$90°, 270°$", "$30°, 150°$"],
+          "answer": "$120°, 240°$"
+        },
+        {
+          "question": "$\\tan(x) = 1$, $0° \\le x \\le 360°$",
+          "options": ["$45°, 225°$", "$30°, 210°$", "$60°, 240°$", "$90°, 270°$"],
+          "answer": "$45°, 225°$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Reciprocal Trig Ratios",
+      "content": "Some trigonometric functions are reciprocals of sine, cosine, and tangent:\n- $\\csc(x) = 1 / \\sin(x)$\n- $\\sec(x) = 1 / \\cos(x)$\n- $\\cot(x) = 1 / \\tan(x)$\n\nThese are useful for rewriting expressions or solving equations that involve reciprocal ratios.",
+      "video": "https://www.youtube.com/watch?v=ywzmPkmBrF0",
+      "image": "/public/images/31782828575_7175ebe20e_o.png",
+      "supplementary": "https://math.libretexts.org/Bookshelves/Precalculus/Trigonometry_(Yoshiwara)/08%3A_More_Functions_and_Identities/8.02%3A_The_Reciprocal_Functions"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 4 Quiz",
+      "questions": [
+        {
+          "question": "$\\csc(30°) = ?$",
+          "options": ["$2$", "$1/2$", "$\\sqrt{3}$", "$\\sqrt{2}$"],
+          "answer": "$2$"
+        },
+        {
+          "question": "$\\sec(60°) = ?$",
+          "options": ["$2$", "$1/2$", "$2/\\sqrt{3}$", "$\\sqrt{3}/2$"],
+          "answer": "$2$"
+        },
+        {
+          "question": "$\\cot(45°) = ?$",
+          "options": ["$1$", "$0$", "$-1$", "$\\sqrt{3}$"],
+          "answer": "$1$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Problems in 2D and 3D Trig - Part 1",
+      "content": "For 2D right triangle problems, use SOHCAHTOA to solve:\n1. Identify the sides and angles that are known.\n2. Decide which ratio to use based on the angle you are working with.\n3. Solve for the unknown side or angle using algebra.",
+      "video": "https://www.youtube.com/watch?v=WumZojQbzEM",
+      "image": "/public/images/3D-trigonometry-What-is.webp",
+      "supplementary": "https://thirdspacelearning.com/gcse-maths/geometry-and-measure/3d-trigonometry/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Problems in 2D and 3D Trig - Part 2",
+      "content": "For 3D problems, you often deal with projections and distances. \nExample: To find the height $h$ of a tree using the angle of elevation $\\theta$ and the distance $d$ from the base, you can use $h = d \\cdot \\tan(\\theta)$. Always identify the right triangle formed in the scenario.",
+      "video": "https://www.youtube.com/watch?v=WumZojQbzEM",
+      "image": "n/a",
+      "supplementary": "https://en.wikipedia.org/wiki/Trigonometry_in_three_dimensions"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 5 Quiz",
+      "questions": [
+        {
+          "question": "Distance to tree base = 20m, angle 30°, height?",
+          "options": ["$20 \\cdot \\tan(30°)$", "$20 \\cdot \\sin(30°)$", "$20 \\cdot \\cos(30°)$", "$20/\\tan(30°)$"],
+          "answer": "$20 \\cdot \\tan(30°)$"
+        },
+        {
+          "question": "Right triangle with adjacent = 5, opposite = 5, angle $\\theta = ?$",
+          "options": ["$45°$", "$30°$", "$60°$", "$90°$"],
+          "answer": "$45°$"
+        },
+        {
+          "question": "3D trig problem: distance = 10, angle = 45°, vertical height = ?",
+          "options": ["$10 \\cdot \\tan(45°)$", "$10 \\cdot \\sin(45°)$", "$10 \\cdot \\cos(45°)$", "$10/\\sqrt{2}$"],
+          "answer": "$10 \\cdot \\tan(45°)$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Ambiguous Case of Sine - Part 1",
+      "content": "SSA triangles (two sides and a non-included angle) may have 0, 1, or 2 solutions. Use the Law of Sines:\n$\\sin(B) = \\frac{b \\cdot \\sin(A)}{a}$\n- If $\\sin(B) > 1$, no solution exists.\n- Otherwise, one solution is $B = \\arcsin(\\sin(B))$.\n- If $B$ is valid, there may be a second solution $B' = 180° - B$.",
+      "video": "https://www.youtube.com/watch?v=rGWKF91SSjI",
+      "image": "/public/images/maxresdefault (1).jpg",
+      "supplementary": "https://www.basic-mathematics.com/ambiguous-case-of-the-law-of-sines.html"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Ambiguous Case of Sine - Part 2",
+      "content": "Example: $A = 40°, a = 8, b = 10$\n- Calculate $\\sin(B) = \\frac{10 \\cdot \\sin 40°}{8} \\approx 0.642$ → $B \\approx 40°$\n- The other possible solution: $B' = 180° - 40° = 140°$\n- Use the Law of Sines to solve for the remaining angles and sides.",
+      "video": "https://www.youtube.com/watch?v=rGWKF91SSjI",
+      "image": "public/images/Sine-Law-Ambiguous-Case.jpg",
+      "supplementary": "https://math.libretexts.org/Bookshelves/Precalculus/Elementary_Trigonometry_(Beveridge)/04%3A_The_Law_of_Sines_and_The_Law_of_Cosines/4.02%3A_The_Law_of_Sines_-_the_ambiguous_case"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 6 Quiz",
+      "questions": [
+        {
+          "question": "SSA triangle: $A = 30°, a=5, b=7$, $\\sin(B)=?$",
+          "options": ["$0.7$", "$0.5$", "$0.6$", "$1$"],
+          "answer": "$0.7$"
+        },
+        {
+          "question": "Other possible angle $B = ?$",
+          "options": ["$150°$", "$30°$", "$120°$", "$60°$"],
+          "answer": "$150°$"
+        },
+        {
+          "question": "SSA may have how many solutions?",
+          "options": ["0, 1, or 2", "Always 1", "Always 2", "3"],
+          "answer": "0, 1, or 2"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Trig Identities - Part 1",
+      "content": "Basic trig identities to remember:\n- $\\sin^2(x) + \\cos^2(x) = 1$\n- $1 + \\tan^2(x) = \\sec^2(x)$\n- $1 + \\cot^2(x) = \\csc^2(x)$\n- Reciprocal identities: $\\csc(x) = 1/\\sin(x)$, $\\sec(x) = 1/\\cos(x)$, $\\cot(x) = 1/\\tan(x)$\nThese identities are essential for simplifying and solving trig equations.",
+      "video": "https://www.youtube.com/watch?v=4S5xTInDGOo",
+      "image": "n/a",
+      "supplementary": "https://math.libretexts.org/Bookshelves/Precalculus/Trigonometry/Trigonometric_Identities"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Trig Identities - Part 2",
+      "content": "To solve equations using identities:\n- Example: $\\sin^2(x) = 1 - \\cos^2(x)$\n- Factor and solve: $\\sin^2(x)-\\sin(x)=0$ → $\\sin(x)(\\sin(x)-1)=0$ → $x = 0°, 90°$\nIdentities make it easier to rewrite equations in a solvable form.",
+      "video": "https://www.youtube.com/watch?v=8r-0QqM2QOE",
+      "image": "n/a",
+      "supplementary": "https://openstax.org/books/precalculus/pages/7-3-trigonometric-identities"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Trig Identities - Part 3",
+      "content": "Double angle and sum formulas:\n- $\\sin(2x) = 2\\sin(x)\\cos(x)$\n- $\\cos(2x) = \\cos^2(x)-\\sin^2(x) = 2\\cos^2(x)-1 = 1-2\\sin^2(x)$\n- $\\sin(A\\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B$\n- $\\cos(A\\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B$\n\nThese formulas help solve more complex trig problems.",
+      "video": "https://www.youtube.com/watch?v=9A5pQ_rFQmA",
+      "image": "n/a",
+      "supplementary": "https://tutorial.math.lamar.edu/classes/trig/doubleangleformulas.aspx"
+    },
+        {
+      "type": "quiz",
+      "question": "Lesson 7 Quiz",
+      "questions": [
+        {
+          "question": "$\\sin(2x) = ?$",
+          "options": [
+            "$2\\sin(x)\\cos(x)$",
+            "$\\sin^2(x)$",
+            "$\\sin(x)\\cos(x)$",
+            "$1-2\\sin^2(x)$"
+          ],
+          "answer": "$2\\sin(x)\\cos(x)$"
+        },
+        {
+          "question": "$\\cos(2x) = ?$",
+          "options": [
+            "$\\cos^2(x)-\\sin^2(x)$",
+            "$2\\sin(x)\\cos(x)$",
+            "$1-\\sin^2(x)$",
+            "$1-2\\cos^2(x)$"
+          ],
+          "answer": "$\\cos^2(x)-\\sin^2(x)$"
+        },
+        {
+          "question": "$\\sin(A+B) = ?$",
+          "options": [
+            "$\\sin A \\cos B + \\cos A \\sin B$",
+            "$\\sin A \\cos B - \\cos A \\sin B$",
+            "$\\cos A \\cos B + \\sin A \\sin B$",
+            "$\\cos A \\cos B - \\sin A \\sin B$"
+          ],
+          "answer": "$\\sin A \\cos B + \\cos A \\sin B$"
+        }
+      ]
+    }
+  ]
+}
+
+      

@@ -1,0 +1,190 @@
+{
+  "unit": "Trig Transformations",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Periodic Behavior - Part 1",
+      "content": "Trigonometric functions are periodic, meaning their values repeat at regular intervals called periods. For the main trig functions:\n- $\\sin(x)$ and $\\cos(x)$ have a period of $360°$ (or $2\\pi$ radians).\n- $\\tan(x)$ has a period of $180°$ (or $\\pi$ radians).\nThe key property is that $f(x + \\text{period}) = f(x)$ for any $x$. This allows us to analyze just one full cycle, as the rest repeats identically.",
+      "video": "https://www.youtube.com/watch?v=PdyAkpYbRBs",
+      "image": "/public/gifs/R.gif",
+      "supplementary": "https://www.cuemath.com/algebra/periodic-function/?utm_source=chatgpt.com"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Periodic Behavior - Part 2",
+      "content": "Understanding periods is crucial because it helps predict values without calculating for every $x$. This is essential for graphing, modeling waves, and solving trig equations. Visually, you can shift or repeat a single cycle along the x-axis to understand the behavior of the function over any interval.",
+      "video": "https://www.youtube.com/watch?v=8Z60_yXX4xA",
+      "image": "n/a",
+      "supplementary": "https://en.wikipedia.org/wiki/Periodic_function?utm_source=chatgpt.com"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 1 Quiz",
+      "questions": [
+        {
+          "question": "What is the period of $\\sin(x)$?",
+          "options": ["$180°$", "$360°$", "$90°$", "$720°$"],
+          "answer": "$360°$"
+        },
+        {
+          "question": "What is the period of $\\tan(x)$?",
+          "options": ["$180°$", "$360°$", "$90°$", "$720°$"],
+          "answer": "$180°$"
+        },
+        {
+          "question": "Key property of periodic functions?",
+          "options": ["$f(x+\\text{period}) = f(x)$", "$f(x)=0$", "$f(x)=x$", "$f(x)=\\sin(x)$ only"],
+          "answer": "$f(x+\\text{period}) = f(x)$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Graphing Sine and Cosine - Part 1",
+      "content": "To graph sine and cosine functions, identify key features:\n- Amplitude: $(\\text{max} - \\text{min})/2$, which is the height from the midline to a peak or trough.\n- Midline: average of the maximum and minimum values.\n- Key points for one cycle of $\\sin(x)$ or $\\cos(x)$: $0°, 90°, 180°, 270°, 360°$.\nAlways label axes and mark zeros, peaks, and troughs for clarity.",
+      "video": "https://www.youtube.com/watch?v=Vw-RwPBWS8g",
+      "image": "/public/images/12x1-t03-02-graphing-trig-functions-14-728.webp",
+      "supplementary": "https://www.khanacademy.org/math/trigonometry/unit-circle-trig-func/graphing-sinusoids/v/graphing-sine-and-cosine-functions?utm_source=chatgpt.com"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Graphing Sine and Cosine - Part 2",
+      "content": "Tips for easier graphing:\n- $\\sin(x)$ starts at the midline and rises to the peak first.\n- $\\cos(x)$ starts at the peak and descends to the midline first.\n- Sketch lightly at first, then add exact points for precision and clarity.",
+      "video": "https://www.youtube.com/watch?v=Vw-RwPBWS8g",
+      "image": "n/a",
+      "supplementary": "https://www.analyzemath.com/high_school_math/grade_12/sketch_and_graph_sine_and_cosine_functions.html#:~:text=Learn%20how%20to%20sketch%20the%20sine%20and%20cosine,with%20clear%20explanations%2C%20step-by-step%20examples%2C%20and%20detailed%20solutions."
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 2 Quiz",
+      "questions": [
+        {
+          "question": "Amplitude of $f(x) = 3\\sin(x)$?",
+          "options": ["$1$", "$2$", "$3$", "$6$"],
+          "answer": "$3$"
+        },
+        {
+          "question": "Midline of $y = 2\\cos(x) + 1$?",
+          "options": ["$0$", "$1$", "$2$", "$3$"],
+          "answer": "$1$"
+        },
+        {
+          "question": "First key point for $\\sin(x)$?",
+          "options": ["$0°, \\text{midline}$", "$90°, \\text{peak}$", "$180°, \\text{midline}$", "$270°, \\text{trough}$"],
+          "answer": "$0°, \\text{midline}$"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Transforming Graphs from the Equation - Part 1",
+      "content": "Trig functions can be written in the form $y = A\\sin(B(x-C)) + D$ or $y = A\\cos(B(x-C)) + D$, where:\n- $A$ determines the amplitude ($|A|$).\n- $B$ determines the period ($\\text{Period} = 360° / |B|$).\n- $C$ is the phase shift (horizontal shift).\n- $D$ is the vertical shift (midline).",
+      "video": "https://www.youtube.com/watch?v=SAG6B4Q1lwc",
+      "image": "/public/images/maxresdefault (2).jpg",
+      "supplementary": "https://math.libretexts.org/Courses/Rio_Hondo/Math_175%3A_Plane_Trigonometry/02%3A_Graphing_Trigonometric_Functions/2.04%3A_Transformations_Sine_and_Cosine_Functions"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Transforming Graphs from the Equation - Part 2",
+      "content": "Steps to graph from an equation:\n1. Draw the midline at $y = D$.\n2. Apply the amplitude: move up/down from midline by $|A|$.\n3. Determine the period: the length of one full cycle = $360° / |B|$.\n4. Apply the phase shift: shift the graph horizontally by $C$.\n5. Combine all steps to sketch the complete graph accurately.",
+      "video": "https://www.youtube.com/watch?v=SAG6B4Q1lwc",
+      "image": "n/a",
+      "supplementary": "n/a"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 3 Quiz",
+      "questions": [
+        {
+          "question": "Period of $f(x) = 2\\cos(3x)$?",
+          "options": ["$360°$", "$120°$", "$540°$", "$60°$"],
+          "answer": "$120°$"
+        },
+        {
+          "question": "Amplitude of $y = -4\\sin(x) + 2$?",
+          "options": ["$4$", "$-4$", "$2$", "$0$"],
+          "answer": "$4$"
+        },
+        {
+          "question": "Phase shift of $y = 3\\sin(x - 90°)$?",
+          "options": ["$90°$ right", "$90°$ left", "$0$", "$180°$ right"],
+          "answer": "$90°$ right"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Transforming Equations from the Graph - Part 1",
+      "content": "To write a trig equation from a graph:\n1. Find the amplitude: $(\\text{max} - \\text{min})/2$.\n2. Determine the midline: $(\\text{max} + \\text{min})/2$.\n3. Find the period: measure the length of one full cycle and calculate $B = 360° / \\text{period}$.",
+      "video": "https://www.youtube.com/watch?v=_ZcxZozR31M",
+      "image": "/public/images/R (3).jpg",
+      "supplementary": "https://flexbooks.ck12.org/cbook/ck-12-interactive-algebra-2/section/7.6/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Transforming Equations from the Graph - Part 2",
+      "content": "4. Find the phase shift: horizontal shift of the starting point from the origin or midline crossing.\n5. Combine all features to write $y = A\\sin(B(x-C)) + D$.\n6. Verify by plotting a few points to ensure the equation matches the graph accurately.",
+      "video": "https://www.youtube.com/watch?v=_ZcxZozR31M",
+      "image": "n/a",
+      "supplementary": "n/a"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 4 Quiz",
+      "questions": [
+        {
+          "question": "Graph crosses midline at $x = 45°$, amplitude $2$, period $180°$. What is $B$ in $y = 2\\sin(B(x-45°))$?",
+          "options": ["$2$", "$1$", "$180°$", "$4$"],
+          "answer": "$2$"
+        },
+        {
+          "question": "Midline = 1, max = 3, amplitude = ?",
+          "options": ["$1$", "$2$", "$3$", "$4$"],
+          "answer": "$2$"
+        },
+        {
+          "question": "Phase shift = 0 if graph starts at ?",
+          "options": ["midline crossing", "peak", "trough", "any point"],
+          "answer": "midline crossing"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Applications of Trig Functions - Part 1",
+      "content": "Trig functions model many real-world phenomena, including:\n- Waves: $y = A\\sin(Bx + C) + D$.\n- Sound: frequency corresponds to $B$, amplitude corresponds to $A$.\n- Pendulum motion: sine or cosine describes displacement over time.",
+      "video": "https://www.youtube.com/watch?v=wQmJmkf2w9E",
+      "image": "/public/images/trig-applications.jpg",
+      "supplementary": "https://www.storyofmathematics.com/applications-of-trigonometry/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Applications of Trig Functions - Part 2",
+      "content": "When applying trig functions to real contexts, always identify:\n- Amplitude: maximum height.\n- Period: time or distance for one full cycle.\n- Midline: baseline value.\nUse the graph to interpret physical meaning, such as maximum displacement, oscillation frequency, or average value.",
+      "video": "https://www.youtube.com/watch?v=wQmJmkf2w9E",
+      "image": "n/a",
+      "supplementary": "https://byjus.com/maths/applications-of-trigonometry/"
+    },
+    {
+      "type": "quiz",
+      "question": "Lesson 5 Quiz",
+      "questions": [
+        {
+          "question": "Amplitude of wave $y = 3\\cos(2x) + 1$?",
+          "options": ["$3$", "$2$", "$1$", "$4$"],
+          "answer": "$3$"
+        },
+        {
+          "question": "Midline of $y = 4\\sin(x) - 2$?",
+          "options": ["$0$", "$2$", "$-2$", "$4$"],
+          "answer": "$-2$"
+        },
+        {
+          "question": "Period of $y = 5\\cos(4x)$?",
+          "options": ["$90°$", "$45°$", "$360°$", "$180°$"],
+          "answer": "$90°$"
+        }
+      ]
+    }
+  ]
+}

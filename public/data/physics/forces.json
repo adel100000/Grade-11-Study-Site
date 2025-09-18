@@ -1,0 +1,317 @@
+{
+  "unit": "Forces and Dynamics",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Dynamics",
+      "content": "Dynamics is the branch of physics that studies the relationship between motion and the forces that cause it. A force can change the velocity of an object, meaning it can cause acceleration. The SI unit of force is the **Newton (N)**, where:\n\n$$1 \\; N = 1 \\; \\text{kg} \\cdot \\text{m/s}^2$$\n\nThis means that one Newton is the force required to accelerate a 1 kg mass by 1 m/s². When solving dynamics problems, it is important to always choose a reference frame and use clear **free body diagrams (FBDs)** to represent the forces acting on objects.",
+      "video": "https://www.youtube.com/watch?v=lZ9W0eUhX_Q",
+      "image": "/public/images/stock-photo-the-subject-of-physics-and-science-course-dynamics-of-motion-in-the-friction-inclined-plane-1551221150.jpg",
+      "supplementary": "https://www.physicsflow.com/g11/1.2#:~:text=Unlike%20kinematics%2C%20which%20deals%20only%20with%20the%20description,dynamics%20is%20based%20on%20Newton%27s%20laws%20of%20motion."
+    },
+    {
+      "type": "quiz",
+      "question": "Units of force?",
+      "options": ["kg·m²/s²", "N", "m/s²", "J"],
+      "answer": "N"
+    },
+    {
+      "type": "quiz",
+      "question": "Dynamics is the study of?",
+      "options": ["Motion without forces", "Motion and forces", "Energy only", "Pressure"],
+      "answer": "Motion and forces"
+    },
+    {
+      "type": "quiz",
+      "question": "1 N = ?",
+      "options": ["1 kg·m/s²", "1 kg·m²/s²", "1 kg·m/s", "1 kg·m²/s"],
+      "answer": "1 kg·m/s²"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Forces and Free Body Diagrams",
+      "content": "A **Free Body Diagram (FBD)** is a sketch that shows all the forces acting on an object. Each force is drawn as an arrow pointing in the direction that the force acts. Common forces include:\n\n- **Gravity** ($$F_g = mg$$)\n- **Normal force** (support force from a surface)\n- **Tension** (pull from ropes or strings)\n- **Friction** (opposes motion)\n- **Applied force** (any external push or pull)\n\nThe **net force** is found by adding all the forces together as vectors:\n\n$$F_{\\text{net}} = \\sum F$$\n\nAccording to Newton's Second Law:\n\n$$F_{\\text{net}} = ma$$\n\nwhere *m* is the mass and *a* is the acceleration.",
+      "video": "https://www.youtube.com/watch?v=nDis6HbXxjg&t=85s",
+      "image": "/public/images/thumbnail_l.jpeg",
+      "supplementary": "https://www.physicsclassroom.com/class/newtlaws/Lesson-2/Drawing-Free-Body-Diagrams"
+    },
+    {
+      "type": "quiz",
+      "question": "What is the purpose of a free body diagram?",
+      "options": ["Show motion path", "Show forces acting", "Show acceleration only", "Show energy"],
+      "answer": "Show forces acting"
+    },
+    {
+      "type": "quiz",
+      "question": "Net force formula?",
+      "options": ["F_net = ma", "F = mv", "F = m/g", "F = Δv/Δt"],
+      "answer": "F_net = ma"
+    },
+    {
+      "type": "quiz",
+      "question": "Forces are vectors?",
+      "options": ["True", "False", "Sometimes", "Only friction"],
+      "answer": "True"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Newton's Three Laws of Motion",
+      "content": "Sir Isaac Newton proposed three fundamental laws of motion:\n\n1. **First Law (Law of Inertia):** An object will remain at rest, or continue moving at constant velocity, unless acted upon by a net external force.\n\n2. **Second Law:** The net force on an object is equal to its mass multiplied by its acceleration:\n   $$F_{\\text{net}} = ma$$\n\n3. **Third Law:** For every action, there is an equal and opposite reaction. Forces always come in pairs.\n\nExamples:\n- Pushing a wall: the wall pushes back on you with equal force.\n- Rocket propulsion: the rocket pushes exhaust gases backward, and the gases push the rocket forward.",
+      "video": "https://www.youtube.com/watch?v=JGO_zDWmkvk",
+      "image": "/public/images/force-weight-newtons-velocity-and-mass.jpg",
+      "supplementary": "https://www.thoughtco.com/what-are-newtons-laws-of-motion-608324"
+    },
+    {
+      "type": "quiz",
+      "question": "Which law: object keeps moving unless force applied?",
+      "options": ["1st Law", "2nd Law", "3rd Law", "Law of Gravity"],
+      "answer": "1st Law"
+    },
+    {
+      "type": "quiz",
+      "question": "F = ma represents which law?",
+      "options": ["1st", "2nd", "3rd", "None"],
+      "answer": "2nd"
+    },
+    {
+      "type": "quiz",
+      "question": "Action-Reaction pairs: equal and ?",
+      "options": ["Opposite in direction", "Same direction", "Zero", "Double"],
+      "answer": "Opposite in direction"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Force of Gravity",
+      "content": "The **force of gravity** is the pull that Earth exerts on objects:\n\n$$F_g = mg$$\n\nwhere:\n- *m* = mass of the object (kg)\n- *g* = acceleration due to gravity (9.8 m/s² near Earth’s surface)\n\nGravity always acts downward, toward the center of Earth. It does not depend on whether the object is moving or stationary. For example, a 10 kg box experiences a gravitational force of:\n\n$$F_g = (10)(9.8) = 98 \\; N$$",
+      "video": "https://www.youtube.com/watch?v=kxkFaBG6a-A",
+      "image": "/public/images/R (3).png",
+      "supplementary": "https://sciencenotes.org/what-is-gravity-definition-formulas-facts/"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for gravity force?",
+      "options": ["F_g = mg", "F_g = ma", "F_g = mv", "F_g = m/v"],
+      "answer": "F_g = mg"
+    },
+    {
+      "type": "quiz",
+      "question": "Acceleration due to gravity on Earth?",
+      "options": ["9.8 m/s²", "10 m/s²", "9 m/s²", "8.9 m/s²"],
+      "answer": "9.8 m/s²"
+    },
+    {
+      "type": "quiz",
+      "question": "Gravity acts in which direction?",
+      "options": ["Downward", "Upward", "Horizontal", "Depends on motion"],
+      "answer": "Downward"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Forces at Angles and Components",
+      "content": "When a force is applied at an angle, it can be broken into horizontal and vertical components:\n\n$$F_x = F \\cos \\theta$$\n$$F_y = F \\sin \\theta$$\n\nThis is important when combining multiple forces. For example, pushing a box at a 30° angle with 100 N of force gives:\n\n- $$F_x = 100 \\cos 30° = 86.6 \\; N$$\n- $$F_y = 100 \\sin 30° = 50 \\; N$$\n\nAlways resolve angled forces into components before applying Newton’s laws.",
+      "video": "https://www.youtube.com/watch?v=ByL4Ah9Yj7s",
+      "image": "/public/images/OIP (9).webp",
+      "supplementary": "https://www.phyley.com/decompose-force-into-xy-components"
+    },
+    {
+      "type": "quiz",
+      "question": "Net force causes?",
+      "options": ["Acceleration", "Velocity", "Energy", "Displacement"],
+      "answer": "Acceleration"
+    },
+    {
+      "type": "quiz",
+      "question": "F_x = F cosθ, F_y = ?",
+      "options": ["F sinθ", "F tanθ", "F θ", "F²"],
+      "answer": "F sinθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Combine forces at angles → use?",
+      "options": ["Vector addition", "Scalar sum", "Subtraction", "None"],
+      "answer": "Vector addition"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: The Normal Force",
+      "content": "The **normal force** ($$F_N$$) is the supporting force exerted by a surface, always perpendicular to that surface. Examples:\n\n- On a flat surface: $$F_N = mg$$\n- On an incline at angle θ: $$F_N = mg \\cos \\theta$$\n\nThe normal force balances part (or all) of the gravitational force, depending on the situation.",
+      "video": "https://www.youtube.com/watch?v=57gKnA94Doc",
+      "image": "/public/images/Normal-Force.jpg",
+      "supplementary": "https://www.sciencefacts.net/normal-force.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Normal force on flat surface?",
+      "options": ["mg", "0", "2mg", "mg sinθ"],
+      "answer": "mg"
+    },
+    {
+      "type": "quiz",
+      "question": "Inclined plane θ → F_N = ?",
+      "options": ["mg cosθ", "mg sinθ", "mg", "mg tanθ"],
+      "answer": "mg cosθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Normal force direction?",
+      "options": ["Perpendicular to surface", "Parallel to surface", "Opposite velocity", "Downward only"],
+      "answer": "Perpendicular to surface"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Tension in Ropes",
+      "content": "The **tension force** ($$T$$) acts along ropes, strings, or cables. In an ideal rope (massless and frictionless), the tension is the same throughout the entire rope. Tension always pulls away from the object, along the rope. For example, to hold a 10 kg mass at rest:\n\n$$T = F_g = mg = (10)(9.8) = 98 \\; N$$",
+      "video": "https://www.youtube.com/watch?v=t2RjGcvNSas",
+      "image": "/public/images/Tension-2.png",
+      "supplementary": "https://www.sciencefacts.net/tension.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Tension force direction?",
+      "options": ["Along rope", "Perpendicular to rope", "Horizontal only", "Vertical only"],
+      "answer": "Along rope"
+    },
+    {
+      "type": "quiz",
+      "question": "Tension in massless rope same throughout?",
+      "options": ["True", "False", "Depends on mass", "Only if pulley rotates"],
+      "answer": "True"
+    },
+    {
+      "type": "quiz",
+      "question": "Tension needed to hold 10 kg mass?",
+      "options": ["98 N", "100 N", "50 N", "10 N"],
+      "answer": "98 N"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 8: Friction Forces",
+      "content": "Friction is a force that resists motion between two surfaces. There are two main types:\n\n- **Static friction** (before motion starts):\n  $$F_s \\leq \\mu_s F_N$$\n\n- **Kinetic friction** (while sliding):\n  $$F_k = \\mu_k F_N$$\n\nwhere $$\\mu$$ is the coefficient of friction (depends on surfaces in contact). Usually, $$\\mu_s > \\mu_k$$, meaning it is harder to start motion than to keep it going.",
+      "video": "https://www.youtube.com/watch?v=Zw0i7jNJHQo",
+      "image": "/public/images/Friction.jpg",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "Friction always acts?",
+      "options": ["Opposite motion", "With motion", "Upward", "Downward"],
+      "answer": "Opposite motion"
+    },
+    {
+      "type": "quiz",
+      "question": "Kinetic friction formula?",
+      "options": ["F_k = μ_k F_N", "F_k = μ_s F_N", "F_k = mg", "F_k = ma"],
+      "answer": "F_k = μ_k F_N"
+    },
+    {
+      "type": "quiz",
+      "question": "Static friction ≤ ?",
+      "options": ["μ_s F_N", "μ_k F_N", "mg", "ma"],
+      "answer": "μ_s F_N"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 9: Inclined Planes",
+      "content": "On an incline at angle θ, gravity can be split into components:\n\n- Parallel to slope: $$F_{\\parallel} = mg \\sin \\theta$$\n- Perpendicular to slope: $$F_{\\perp} = mg \\cos \\theta$$\n\nThe net force down the slope is:\n\n$$F_{\\text{net}} = mg \\sin \\theta - F_{\\text{friction}}$$",
+      "video": "https://www.youtube.com/watch?v=3YiAqgEh8SY",
+      "image": "/public/images/OIP (10).webp",
+      "supplementary": "https://www.chadsprep.com/chads-general-physics-videos/physics-inclined-planes/"
+    },
+    {
+      "type": "quiz",
+      "question": "Force parallel to incline?",
+      "options": ["mg sinθ", "mg cosθ", "mg", "μF_N"],
+      "answer": "mg sinθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Force perpendicular to incline?",
+      "options": ["mg cosθ", "mg sinθ", "mg", "ma"],
+      "answer": "mg cosθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Sliding block down incline: net force = ?",
+      "options": ["mg sinθ - F_friction", "mg cosθ", "F_N", "μ mg"],
+      "answer": "mg sinθ - F_friction"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 10: Pulleys and Connected Objects",
+      "content": "Pulleys are used to change the **direction** of tension forces. In an ideal pulley (massless and frictionless), the tension is the same on both sides of the rope. For connected masses, both objects share the same acceleration. To solve pulley problems:\n\n1. Draw an FBD for each mass.\n2. Write Newton’s Second Law ($$F = ma$$) for each object.\n3. Use the rope constraint (same acceleration) to connect equations.",
+      "video": "https://www.youtube.com/watch?v=EpyXy4zM6OY",
+      "image": "/public/images/Pulley-Simple-Machine.jpg",
+      "supplementary": "https://www.real-world-physics-problems.com/pulley-problems.html"
+    },
+    {
+      "type": "quiz",
+      "question": "In ideal pulley, tension is?",
+      "options": ["Same on both sides", "Different on each side", "Zero", "Only upward"],
+      "answer": "Same on both sides"
+    },
+    {
+      "type": "quiz",
+      "question": "Two connected masses share?",
+      "options": ["Same acceleration", "Same force", "Same velocity", "Same energy"],
+      "answer": "Same acceleration"
+    },
+    {
+      "type": "quiz",
+      "question": "Pulleys mainly change?",
+      "options": ["Direction of force", "Mass", "Acceleration due to g", "Friction"],
+      "answer": "Direction of force"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 11: Uniform Circular Motion",
+      "content": "An object moving in a circle at constant speed is constantly changing direction, which means it is accelerating. This acceleration is called **centripetal acceleration**, and it requires a **centripetal force**:\n\n$$F_c = \\frac{mv^2}{r}$$\n\nwhere:\n- *m* = mass of object\n- *v* = speed\n- *r* = radius of circle\n\nThe force is always directed **toward the center** of the circle. It can be provided by tension, friction, or gravity, depending on the situation.",
+      "video": "https://www.youtube.com/watch?v=IawY86XveQE",
+      "image": "/public/images/OIP (11).webp",
+      "supplementary": "https://openstax.org/books/physics/pages/6-2-uniform-circular-motion"
+    },
+    {
+      "type": "quiz",
+      "question": "Centripetal force formula?",
+      "options": ["F_c = mv²/r", "F = ma", "F = mg", "F = ½mv²"],
+      "answer": "F_c = mv²/r"
+    },
+    {
+      "type": "quiz",
+      "question": "Centripetal force always points?",
+      "options": ["Toward center", "Away from center", "Forward", "Backward"],
+      "answer": "Toward center"
+    },
+    {
+      "type": "quiz",
+      "question": "Circular motion speed constant, but?",
+      "options": ["Velocity changes direction", "Acceleration = 0", "Force = 0", "Energy lost"],
+      "answer": "Velocity changes direction"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 12: Forces Unit Summary",
+      "content": "Key takeaways:\n\n- Forces are **vectors**, and the **net force** causes acceleration: $$F = ma$$.\n- Newton’s **three laws** explain how forces and motion are related.\n- The most common forces are **gravity, tension, normal force, and friction**.\n- Applications include **inclined planes, pulleys, and circular motion**.\n- The first step in solving any dynamics problem is to draw a clear **Free Body Diagram (FBD)**.",
+      "video": "null",
+      "image": "/public/images/physics-504-chapter-12-13-different-types-of-forces-3-638.webp",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "First step in solving dynamics problems?",
+      "options": ["Draw FBD", "Write F=ma", "Calculate energy", "Guess"],
+      "answer": "Draw FBD"
+    },
+    {
+      "type": "quiz",
+      "question": "Centripetal force direction?",
+      "options": ["Toward center", "Away from center", "Forward", "Depends"],
+      "answer": "Toward center"
+    },
+    {
+      "type": "quiz",
+      "question": "F_net = ?",
+      "options": ["ma", "mv", "mg", "F_c"],
+      "answer": "ma"
+    }
+  ]
+}

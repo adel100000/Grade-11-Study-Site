@@ -1,0 +1,372 @@
+{
+  "unit": "Kinematics",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 0: Skills Review - Sig Figs & Unit Conversions",
+      "content": "In physics, making measurements requires proper use of significant figures (sig figs) and consistent units to ensure accuracy.\n\n- **Significant figures (sig figs)** include all digits that are known plus one estimated digit.\n- Leading zeros do not count as sig figs.\n- Example: 0.00780 has **3 sig figs**.\n- **Unit conversions** are performed using conversion factors.\n- Example: 1 km = 1000 m, 1 hr = 3600 s.\n- **Always convert units to match** the system used in formulas before performing calculations.",
+      "video": "https://www.youtube.com/watch?v=Gn97hpEkTiM",
+      "image": "/public/images/maxresdefault (3).jpg",
+      "supplementary": "https://www.alloprof.qc.ca/en/students/vl/physics/significant-figures-in-physics-p1110"
+    },
+    {
+      "type": "quiz",
+      "question": "How many sig figs in 0.00780?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "type": "quiz",
+      "question": "Convert 5 km to meters",
+      "options": ["50 m", "500 m", "5000 m", "50000 m"],
+      "answer": "5000 m"
+    },
+    {
+      "type": "quiz",
+      "question": "Convert 2.5 hours to seconds",
+      "options": ["900 s", "5400 s", "7200 s", "9000 s"],
+      "answer": "9000 s"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Scalar and Vector Quantities",
+      "content": "Quantities in physics can be classified as **scalars** or **vectors**.\n\n- **Scalar quantities** have only magnitude (size) and no direction.\n  - Examples: speed, distance, mass, time.\n- **Vector quantities** have both magnitude and direction.\n  - Examples: velocity, displacement, acceleration, force.\n\n**Vector addition** can be done using the **tip-to-tail method** or by breaking vectors into components along axes (x and y).",
+      "video": "https://www.youtube.com/watch?v=iLB_4Wu2QOg&t=82s",
+      "image": "/public/images/R (4).jpg",
+      "supplementary": "https://sciencenotes.org/scalar-vs-vector-definitions-and-examples/"
+    },
+    {
+      "type": "quiz",
+      "question": "Which is a vector quantity?",
+      "options": ["Speed", "Distance", "Velocity", "Mass"],
+      "answer": "Velocity"
+    },
+    {
+      "type": "quiz",
+      "question": "Distance is measured in?",
+      "options": ["m/s", "m", "kg", "s"],
+      "answer": "m"
+    },
+    {
+      "type": "quiz",
+      "question": "Which can be negative?",
+      "options": ["Distance", "Displacement", "Both", "Neither"],
+      "answer": "Displacement"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Speed and Velocity",
+      "content": "Speed and velocity are related but distinct concepts.\n\n- **Speed** is a scalar: $$\\text{speed} = \\frac{\\text{distance}}{\\text{time}}$$.\n- **Velocity** is a vector: $$\\vec{v} = \\frac{\\vec{\\text{displacement}}}{\\text{time}}$$.\n\n**Examples:**\n- Distance traveled = 100 m in 20 s → speed = 5 m/s.\n- Displacement = 80 m east in 20 s → velocity = 4 m/s east.",
+      "video": "https://www.youtube.com/watch?v=QaU9jMHh7gE",
+      "image": "/public/images/velocity-formula.png",
+      "supplementary": "https://www.physicsclassroom.com/class/1DKin/Lesson-1/Speed-and-Velocity"
+    },
+    {
+      "type": "quiz",
+      "question": "A car moves 120 m north in 10 s. Velocity?",
+      "options": ["12 m/s", "12 m/s north", "10 m/s north", "12 km/h north"],
+      "answer": "12 m/s north"
+    },
+    {
+      "type": "quiz",
+      "question": "If a runner travels 400 m in 50 s, speed = ?",
+      "options": ["8 m/s", "7.5 m/s", "400 m/s", "50 m/s"],
+      "answer": "8 m/s"
+    },
+    {
+      "type": "quiz",
+      "question": "Scalar or Vector: Speed?",
+      "options": ["Scalar", "Vector", "Both", "Neither"],
+      "answer": "Scalar"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Uniform Motion",
+      "content": "Uniform motion refers to motion at **constant velocity**.\n\n- The displacement-time graph is a straight line.\n- **Equation:** $$x = x_0 + vt$$ where:\n  - $$x$$ = displacement\n  - $$x_0$$ = initial position\n  - $$v$$ = constant velocity\n  - $$t$$ = time\n- The **slope of the displacement-time graph** represents the velocity.",
+      "video": "https://www.youtube.com/watch?v=IP54IGxKVwQ",
+      "image": "/public/images/uniform-motion.webp",
+      "supplementary": "https://www.sciencefacts.net/uniform-motion.html"
+    },
+    {
+      "type": "quiz",
+      "question": "If x₀=0 m, v=5 m/s, find displacement at t=10 s",
+      "options": ["50 m", "15 m", "5 m", "100 m"],
+      "answer": "50 m"
+    },
+    {
+      "type": "quiz",
+      "question": "Uniform motion implies acceleration = ?",
+      "options": ["0", "5 m/s²", "constant", "undefined"],
+      "answer": "0"
+    },
+    {
+      "type": "quiz",
+      "question": "Slope of a displacement-time graph = ?",
+      "options": ["Displacement", "Time", "Velocity", "Acceleration"],
+      "answer": "Velocity"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Average Speed and Velocity",
+      "content": "Average speed and velocity are calculated over a time interval.\n\n- **Average speed:** $$\\text{avg speed} = \\frac{\\text{total distance}}{\\text{total time}}$$\n- **Average velocity:** $$\\vec{v}_{avg} = \\frac{\\text{total displacement}}{\\text{total time}}$$\n\n**Example:** Trip 100 m east, then 50 m west in 30 s:\n- Total distance = 100 + 50 = 150 m → avg speed = 150 ÷ 30 = 5 m/s.\n- Total displacement = 100 - 50 = 50 m east → avg velocity ≈ 1.67 m/s east.",
+      "video": "https://www.youtube.com/watch?v=a451lmDKv9w",
+      "image": "/public/images/OIP (8).webp",
+      "supplementary": "https://www.youtube.com/watch?v=6arvL--EHJU"
+    },
+    {
+      "type": "quiz",
+      "question": "A car travels 60 km east then 40 km west in 2 h. Avg velocity?",
+      "options": ["10 km/h east", "5 km/h east", "20 km/h east", "0 km/h"],
+      "answer": "10 km/h east"
+    },
+    {
+      "type": "quiz",
+      "question": "Same car, avg speed?",
+      "options": ["10 km/h", "25 km/h", "50 km/h", "100 km/h"],
+      "answer": "50 km/h"
+    },
+    {
+      "type": "quiz",
+      "question": "Average speed is always ≥ average velocity?",
+      "options": ["True", "False", "Sometimes", "Never"],
+      "answer": "True"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Instantaneous Velocity",
+      "content": "Instantaneous velocity is the velocity at a **specific moment in time**.\n\n- Found as the **slope of the tangent line** to the displacement-time graph.\n- In calculus terms: $$v = \\frac{dx}{dt}$$ where $$x$$ is displacement.\n\n**Example:** $$x(t) = 5t^2$$ → $$v = \\frac{dx}{dt} = 10t$$.",
+      "video": "https://www.youtube.com/watch?v=krtqLXsylXs",
+      "image": "/public/images/slide1-n.webp"
+    },
+    {
+    "type": "quiz",
+    "question": "x(t) = 2t², find v at t=3 s",
+    "options": ["6 m/s", "12 m/s", "18 m/s", "36 m/s"],
+    "answer": "12 m/s"
+  },
+  {
+    "type": "quiz",
+    "question": "Instantaneous velocity = slope of ?",
+    "options": ["Displacement-time graph", "Velocity-time graph", "Acceleration-time graph", "Distance-time graph"],
+    "answer": "Displacement-time graph"
+  },
+  {
+    "type": "quiz",
+    "question": "If x(t) = 10t, v = ?",
+    "options": ["10 m/s", "0", "t", "20 m/s"],
+    "answer": "10 m/s"
+  },
+  {
+    "type": "lesson",
+    "title": "Lesson 6a: Straight Line Motion",
+    "content": "One-dimensional motion occurs along a single axis (x or y).\n\n- **Constant velocity:** $$x = x_0 + vt$$\n- **Constant acceleration:** $$x = x_0 + v_0t + \\frac{1}{2}at^2$$\n- **Velocity under constant acceleration:** $$v = v_0 + at$$\n\nWhere:\n- $$x$$ = displacement, $$x_0$$ = initial position\n- $$v$$ = velocity, $$v_0$$ = initial velocity\n- $$a$$ = acceleration, $$t$$ = time.",
+    "video": "null",
+    "image": "/public/images/Motion-in-One-Dimension-min.png",
+    "supplementary": "https://stickmanphysics.com/stickman-physics-home/one-dimensional-motion/"
+      
+  },
+  {
+    "type": "quiz",
+    "question": "v₀ = 0, a = 2 m/s², t = 5 s → displacement?",
+    "options": ["10 m", "25 m", "5 m", "20 m"],
+    "answer": "25 m"
+  },
+  {
+    "type": "quiz",
+    "question": "v₀ = 5 m/s, a=0 → x after 10 s?",
+    "options": ["50 m", "5 m", "0 m", "100 m"],
+    "answer": "50 m"
+  },
+  {
+    "type": "quiz",
+    "question": "Straight line motion is along?",
+    "options": ["x-axis", "y-axis", "A single axis", "Curved path"],
+    "answer": "A single axis"
+  },
+  {
+    "type": "lesson",
+    "title": "Lesson 6b: Velocity-Time Graphs",
+    "content": "Velocity-time (v-t) graphs show **how velocity changes with time**.\n\n- The **slope** of a v-t graph represents **acceleration**.\n- The **area under the curve** represents **displacement**.\n- **Constant acceleration:** slanted line.\n- **Constant velocity:** horizontal line.",
+    "video": "https://www.youtube.com/watch?v=AJF2n5RWXKE",
+    "image": "/public/images/Screen Shot 2018-03-27 at 09.59.50,h_400,q_80,w_640.png",
+    "supplementary_links": "https://www.physicsclassroom.com/class/1DKin/Lesson-4/Meaning-of-Shape-for-a-v-t-Graph"
+      
+  },
+  {
+    "type": "quiz",
+    "question": "Slope of v-t graph = ?",
+    "options": ["Velocity", "Acceleration", "Displacement", "Force"],
+    "answer": "Acceleration"
+  },
+  {
+    "type": "quiz",
+    "question": "Area under v-t graph = ?",
+    "options": ["Velocity", "Acceleration", "Displacement", "Distance"],
+    "answer": "Displacement"
+  },
+  {
+    "type": "quiz",
+    "question": "v=5 m/s horizontal line → acceleration?",
+    "options": ["5 m/s²", "0", "5 m/s", "Cannot determine"],
+    "answer": "0"
+  },
+  {
+    "type": "lesson",
+    "title": "Lesson 7: Displacement from a Velocity-Time Graph",
+    "content": "Displacement can be determined from **areas under v-t graphs**:\n\n- **Rectangle:** $$\\text{displacement} = v \\times t$$\n- **Triangle:** $$\\text{displacement} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n- **Trapezoid:** $$\\text{displacement} = \\frac{1}{2} (v_1 + v_2) \\times t$$",
+    "video": "https://www.youtube.com/watch?v=9qVCfiuPGZ0",
+    "image": "/public/images/Screen Shot 2018-03-27 at 09.59.50,h_400,q_80,w_640.png",
+    "supplementary": "https://warreninstitute.org/how-to-calculate-displacement-from-a-velocity-time-graph/#:~:text=Here%2C%20we%20will%20discuss%20how%20to%20calculate%20displacement,formula%3A%20Displacement%20%3D%20Average%20Velocity%20%C3%97%20Time%20Interval"
+      
+    
+  },
+    {
+      "type": "quiz",
+      "question": "v-t triangle, base=4 s, height=3 m/s → displacement?",
+      "options": ["6 m", "12 m", "8 m", "10 m"],
+      "answer": "6 m"
+    },
+    {
+      "type": "quiz",
+      "question": "Rectangle: v=5 m/s, t=10 s → displacement?",
+      "options": ["15 m", "50 m", "25 m", "10 m"],
+      "answer": "50 m"
+    },
+    {
+      "type": "quiz",
+      "question": "Trapezoid: v₁=2 m/s, v₂=4 m/s, t=3 s → displacement?",
+      "options": ["6 m", "9 m", "8 m", "12 m"],
+      "answer": "9 m"
+    },
+    {
+  "type": "lesson",
+  "title": "Lesson 8: Equations for Constant Acceleration",
+  "content": "For motion with **constant acceleration**, key equations include:\n\n1. $$v = v_0 + at$$\n2. $$x = x_0 + v_0t + \\frac{1}{2}at^2$$\n3. $$v^2 = v_0^2 + 2a(x - x_0)$$\n\n**Strategy:** Identify knowns (initial velocity, acceleration, time, displacement) and unknowns, then apply the appropriate formula.",
+  "video": "https://www.youtube.com/watch?v=hrAOSknrYiI",
+  "image": "/public/images/R (2).png",
+  "supplementary": "https://en.neurochispas.com/physics/kinematic-equations-for-constant-acceleration/"
+},
+{
+  "type": "quiz",
+  "question": "v₀=0, a=2 m/s², t=4 s → v=?",
+  "options": ["4 m/s", "8 m/s", "2 m/s", "16 m/s"],
+  "answer": "8 m/s"
+},
+{
+  "type": "quiz",
+  "question": "x₀=0, v₀=3 m/s, a=2 m/s², t=2 s → x=?",
+  "options": ["7 m", "8 m", "10 m", "6 m"],
+  "answer": "10 m"
+},
+{
+  "type": "quiz",
+  "question": "v²=v₀²+2a(x-x₀), v₀=0, a=2, x-x₀=8 → v=?",
+  "options": ["4", "8", "16", "32"],
+  "answer": "4"
+},
+{
+  "type": "lesson",
+  "title": "Lesson 9: The 5 Kinematic Equations",
+  "content": "For **constant acceleration**, the 5 standard kinematic equations are:\n\n1. $$v = v_0 + at$$\n2. $$x = x_0 + v_0t + \\frac{1}{2}at^2$$\n3. $$x = x_0 + vt - \\frac{1}{2}at^2$$\n4. $$v^2 = v_0^2 + 2a(x - x_0)$$\n5. $$x - x_0 = \\frac{v + v_0}{2} t$$\n\nUse algebra to **rearrange** these equations to isolate the unknown variable when solving problems.",
+  "video": "https://www.youtube.com/watch?v=xZLiA9aySxY",
+  "image": "/public/src/maxresdefault (4).jpg",
+  "supplementary": "https://www.physicsclassroom.com/class/1dkin/Lesson-6/Kinematic-Equations"
+},
+{
+  "type": "quiz",
+  "question": "v=10, v₀=4, t=3 → a=?",
+  "options": ["2 m/s²", "3 m/s²", "6 m/s²", "1 m/s²"],
+  "answer": "2 m/s²"
+},
+{
+  "type": "quiz",
+  "question": "Rearrange x=x₀+v₀t+0.5at² to solve for a?",
+  "options": ["a=2(x-x₀-v₀t)/t²", "a=(x-x₀)/t²", "a=vt²", "a=2x/t²"],
+  "answer": "a=2(x-x₀-v₀t)/t²"
+},
+{
+  "type": "quiz",
+  "question": "From x-x₀=(v+v₀)/2 × t, solve for v?",
+  "options": ["v=2(x-x₀)/t - v₀", "v=x*t-v₀", "v=2x/t+v₀", "v=x/t+v₀"],
+  "answer": "v=2(x-x₀)/t - v₀"
+},
+{
+  "type": "lesson",
+  "title": "Lesson 10: Right Angle Trig Review",
+  "content": "Review for **resolving vectors** using right-angle trigonometry:\n\n- $$\\sin\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$\n- $$\\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$\n- $$\\tan\\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$\n\nUsed to find vector components in projectile motion and 2D problems.",
+  "video": "https://www.youtube.com/watch?v=mqkCRylUE-4",
+  "image": "/public/images/unnamed.png",
+  "supplementary": "null"
+},
+{
+  "type": "quiz",
+  "question": "Triangle: opposite=3, hypotenuse=5 → sinθ=?",
+  "options": ["3/5", "4/5", "5/3", "1/2"],
+  "answer": "3/5"
+},
+{
+  "type": "quiz",
+  "question": "adjacent=4, opposite=3 → tanθ=?",
+  "options": ["3/4", "4/3", "1", "7/4"],
+  "answer": "3/4"
+},
+{
+  "type": "quiz",
+  "question": "cosθ=0.6, hypotenuse=5 → adjacent=?",
+  "options": ["3", "4", "5", "2"],
+  "answer": "3"
+},
+{
+  "type": "lesson",
+  "title": "Lesson 11: Introduction to Vectors",
+  "content": "Vectors can be broken into components along the x- and y-axes:\n\n- Horizontal: $$V_x = V \\cos\\theta$$\n- Vertical: $$V_y = V \\sin\\theta$$\n\nThe **magnitude of a vector**: $$|V| = \\sqrt{V_x^2 + V_y^2}$$.\n- Combine vectors by adding components along each axis.",
+  "video": "https://www.youtube.com/watch?v=ujtQaadmsrs",
+  "image": "null",
+  "supplementary": "https://webnotee.com/vectors-class-11-physics-notes/"
+},
+{
+  "type": "quiz",
+  "question": "Vector 5 m at 30° → Vₓ?",
+  "options": ["2.5", "4.33", "3", "5"],
+  "answer": "4.33"
+},
+{
+  "type": "quiz",
+  "question": "V = 3i + 4j → magnitude?",
+  "options": ["5", "7", "1", "12"],
+  "answer": "5"
+},
+{
+  "type": "quiz",
+  "question": "V = 10 m at 45°, Vᵧ=?",
+  "options": ["5", "7.07", "10", "3.5"],
+  "answer": "7.07"
+},
+{
+  "type": "lesson",
+  "title": "Lesson 12: Projectile Motion",
+  "content": "Projectile motion is two-dimensional motion where **horizontal velocity is constant** and **vertical motion is affected by gravity**.\n\n- Horizontal: $$x = v_x t$$\n- Vertical: $$y = y_0 + v_{y0} t - \\frac{1}{2} g t^2$$\n- Key parameters: **time of flight**, **maximum height**, and **range**.\n- Solve by treating horizontal and vertical motion separately.",
+  "video": "https://www.youtube.com/watch?v=aY8z2qO44WA&t=26s",
+  "image": "/public/images/maxresdefault (5).jpg",
+  "supplementary": "https://www.sciencefacts.net/projectile-motion.html"
+},
+{
+  "type": "quiz",
+  "question": "Projectile vₓ=10 m/s, t=3 s → x=?",
+  "options": ["10 m", "20 m", "30 m", "40 m"],
+  "answer": "30 m"
+},
+{
+  "type": "quiz",
+  "question": "vᵧ₀=5 m/s, t=2 s, g=9.8 → vertical displacement?",
+  "options": ["-9.6 m", "10 m", "-5 m", "0 m"],
+  "answer": "-9.6 m"
+},
+{
+  "type": "quiz",
+  "question": "Projectile range: vₓ=15 m/s, total time=4 s → range?",
+  "options": ["30 m", "45 m", "60 m", "75 m"],
+  "answer": "60 m"
+}
+  ]
+}

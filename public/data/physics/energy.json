@@ -1,0 +1,227 @@
+{
+  "unit": "Energy and Thermal Physics",
+  "slides": [
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Energy (Kinetic and Potential) - Part 1",
+      "content": "Energy is the ability to do work or cause change. In mechanics, we focus on **kinetic energy** (energy of motion) and **potential energy** (stored energy due to position or configuration). All forms of energy are measured in **Joules (J)**, where $$1\\,\\text{J} = 1\\,\\text{kg}\\cdot\\text{m}^2/\\text{s}^2.$$\n\n**Kinetic Energy (K):**\n$$K = \\tfrac{1}{2} m v^2$$\n- $$m$$: mass in kilograms (kg)\n- $$v$$: speed in meters per second (m/s)\n\nExample: A 2.0 kg cart moving at 3.0 m/s has kinetic energy $$K = \\tfrac{1}{2}(2.0)(3.0)^2 = 9.0\\,\\text{J}.$$\n\n**Gravitational Potential Energy near Earth (U_g):**\n$$U_g = m g h$$\n- $$g$$: gravitational field strength $$\\approx 9.8\\,\\text{m/s}^2$$\n- $$h$$: height above a chosen reference level (m)\n\nChoosing the reference level sets where $$U_g = 0.$$ Only **changes** in potential energy matter physically.",
+      "video": "https://www.youtube.com/watch?v=eBsU9DVa7ws",
+      "image": "/public/images/OIP (12).webp",
+      "supplementary": "https://www.sciencing.com/kinetic-and-potential-energy-what-is-the-difference-w-examples-13720801/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 1: Introduction to Energy (Kinetic and Potential) - Part 2",
+      "content": "**Mechanical Energy (E_{mech}):**\n$$E_{\\text{mech}} = K + U$$\nThis sums kinetic energy and potential energy for a system. In many problems, we also meet **elastic potential energy** stored in a spring:\n\n**Elastic Potential Energy (U_s):**\n$$U_s = \\tfrac{1}{2} k x^2$$\n- $$k$$: spring constant (N/m)\n- $$x$$: stretch/compression from equilibrium (m)\n\nExample: Lifting a 1.5 kg backpack to a shelf 2.0 m high increases its gravitational potential by $$\\Delta U_g = (1.5)(9.8)(2.0) = 29.4\\,\\text{J}.$$ If you then let it slide down (no friction), that 29.4 J converts into kinetic energy at the bottom.",
+      "video": "https://www.youtube.com/watch?v=VrLVUfB_t_U",
+      "image": "/public/images/Mechanical-Energy.jpg",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "Formula for kinetic energy?",
+      "options": ["KE = 1/2 mv²", "KE = mgh", "KE = Fd", "KE = P/t"],
+      "answer": "KE = 1/2 mv²"
+    },
+    {
+      "type": "quiz",
+      "question": "Potential energy formula?",
+      "options": ["PE = mgh", "PE = 1/2 mv²", "PE = Fd", "PE = P/t"],
+      "answer": "PE = mgh"
+    },
+    {
+      "type": "quiz",
+      "question": "Mechanical energy formula?",
+      "options": ["ME = KE + PE", "ME = KE - PE", "ME = Fd", "ME = P/t"],
+      "answer": "ME = KE + PE"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Work and Power - Part 1 (Work)",
+      "content": "Work is the **energy transferred** to or from an object when a force causes a displacement. Only the component of the force **along the displacement** does work.\n\n**Work for a constant force at an angle:**\n$$W = F d \\cos\\theta$$\n- $$F$$: force magnitude (N)\n- $$d$$: displacement magnitude (m)\n- $$\\theta$$: angle between the force and displacement vectors\n\n**Signs:**\n- $$W > 0$$ when force has a component **in the same direction** as motion.\n- $$W < 0$$ when force opposes motion (e.g., friction).\n\n**Variable forces:** If $$F$$ changes with position, work is the **area under the $$F$$ vs. $$x$$ curve**:\n$$W = \\int_{x_i}^{x_f} F(x)\\,dx$$\nExample: Compressing a spring from $$x=0$$ to $$x=0.20\\,\\text{m}$$ with $$k=200\\,\\text{N/m}$$:\n$$W = \\tfrac{1}{2} k x^2 = \\tfrac{1}{2}(200)(0.20)^2 = 4.0\\,\\text{J}.$$",
+      "video": "https://www.youtube.com/watch?v=2WS1sG9fhOk",
+      "image": "/public/images/maxresdefault (6).jpg",
+      "supplementary": "https://www.learncbse.in/work-energy-power-cbse-notes-class-11-physics/"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 2: Work and Power - Part 2 (Power)",
+      "content": "Power is the **rate of doing work** or the **rate of energy transfer**.\n\n**Average power:**\n$$P_{\\text{avg}} = \\frac{W}{\\Delta t}$$\n\n**Instantaneous power:**\n$$P = \\frac{dW}{dt} = \\vec{F}\\cdot\\vec{v}$$\n\n**Units:** Power is measured in **Watts (W)**, where $$1\\,\\text{W} = 1\\,\\text{J/s}.$$\n\nExample: You push a mower with a horizontal force of 120 N while it moves at 1.5 m/s. The instantaneous power is $$P = Fv = (120)(1.5) = 180\\,\\text{W}.$$",
+      "video": "https://www.youtube.com/watch?v=zVRH9d5PW8g",
+      "image": "/public/images/work-and-power-equations-300x147.jpg",
+      "supplementary": "https://www.learncbse.in/work-energy-power-cbse-notes-class-11-physics/"
+    },
+    {
+      "type": "quiz",
+      "question": "Work formula?",
+      "options": ["W = Fd cosθ", "W = mgh", "W = 1/2 mv²", "W = P/t"],
+      "answer": "W = Fd cosθ"
+    },
+    {
+      "type": "quiz",
+      "question": "Power formula?",
+      "options": ["P = W/t", "P = Fd", "P = KE + PE", "P = mgh/t"],
+      "answer": "P = W/t"
+    },
+    {
+      "type": "quiz",
+      "question": "Work depends on?",
+      "options": ["Force component along displacement", "Mass only", "Speed only", "Time only"],
+      "answer": "Force component along displacement"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Conservation of Mechanical Energy - Part 1 (Work–Energy Theorem)",
+      "content": "The **Work–Energy Theorem** connects force and energy:\n$$W_{\\text{net}} = \\Delta K = K_f - K_i$$\n\nExample: A 1000 kg car speeds up from 10 m/s to 20 m/s. The change in kinetic energy is:\n$$\\Delta K = \\tfrac{1}{2} m (v_f^2 - v_i^2) = \\tfrac{1}{2}(1000)(20^2 - 10^2) = 1.5\\times10^5\\,\\text{J}.$$\nSo the net work on the car is $$1.5\\times10^5\\,\\text{J}.$$",
+      "video": "https://www.youtube.com/watch?v=nnMirzeTepQ",
+      "image": "/public/images/OIP (13).webp",
+      "supplementary": "https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/6%3A_Work_and_Energy/6.4%3A_Work-Energy_Theorem"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 3: Conservation of Mechanical Energy - Part 2 (Conservative vs. Non-Conservative)",
+      "content": "If **only conservative forces** (like gravity or ideal springs) do work, the **mechanical energy** of the system is constant:\n$$K + U = \\text{constant}$$\nEquivalently,\n$$K_i + U_i = K_f + U_f.$$\n\nIf **non-conservative forces** (like friction) do work:\n$$W_{\\text{nc}} = \\Delta E_{\\text{mech}} = (K_f + U_f) - (K_i + U_i).$$\n\nFriction typically makes $$W_{\\text{nc}} < 0$$, converting mechanical energy into thermal energy.\n\n**Gravitational:** $$U_g = mgh$$.  **Spring:** $$U_s = \\tfrac{1}{2}kx^2$$.",
+      "video": "https://www.youtube.com/watch?v=N7DAqKuSCsk",
+      "image": "/public/images/conservative-vs-nonconservative-forces-impact-260nw-2467881921.webp",
+      "supplementary": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/08%3A_Potential_Energy_and_Conservation_of_Energy/8.03%3A_Conservative_and_Non-Conservative_Forces"
+    },
+    {
+      "type": "quiz",
+      "question": "ME conservation formula?",
+      "options": ["KE + PE = constant", "KE - PE = constant", "W = Fd", "P = W/t"],
+      "answer": "KE + PE = constant"
+    },
+    {
+      "type": "quiz",
+      "question": "Neglecting friction means?",
+      "options": ["No energy lost to heat", "No gravity", "No motion", "No mass"],
+      "answer": "No energy lost to heat"
+    },
+    {
+      "type": "quiz",
+      "question": "If KE increases, PE must?",
+      "options": ["Decrease", "Increase", "Stay same", "Double"],
+      "answer": "Decrease"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 4: Efficiency",
+      "content": "Efficiency tells us what fraction of the input energy becomes **useful** output energy (the rest often becomes heat, sound, etc).\n\n**Efficiency (η):**\n$$\\eta = \\frac{\\text{Useful Energy Output}}{\\text{Total Energy Input}} \\times 100\\%$$\n\nExample: A device takes in 500 J of electrical energy and delivers 400 J of mechanical energy. The efficiency is $$\\eta = (400/500)\\times100\\% = 80\\%.$$",
+      "video": "https://www.youtube.com/watch?v=KbrqbW0um0Y",
+      "image": "/public/images/R (4).png",
+      "supplementary": "https://gradeelevenphysics.weebly.com/efficiency-and-power.html"
+    },
+    {
+      "type": "quiz",
+      "question": "Efficiency formula?",
+      "options": ["η = (Useful / Input) × 100%", "η = W/t", "η = KE + PE", "η = Fd"],
+      "answer": "η = (Useful / Input) × 100%"
+    },
+    {
+      "type": "quiz",
+      "question": "Efficiency unit?",
+      "options": ["%", "J", "W", "m/s"],
+      "answer": "%"
+    },
+    {
+      "type": "quiz",
+      "question": "If input 500 J, useful 400 J, efficiency?",
+      "options": ["80%", "75%", "90%", "70%"],
+      "answer": "80%"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Introduction to Heat and Thermal Energy - Part 1",
+      "content": "At the particle level, energy shows up as motion and interactions of atoms and molecules.\n\n- **Thermal energy**: total microscopic kinetic energy of particles.\n- **Temperature**: measures average kinetic energy per particle.\n- **Heat (Q)**: energy transferred due to temperature difference.\n\nUnits: energy in Joules (J), temp in °C or K.",
+      "video": "https://www.youtube.com/watch?v=-7Gl-yKF6Y4",
+      "image": "/public/images/OIP (14).webp",
+      "supplementary": "null"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 5: Introduction to Heat and Thermal Energy - Part 2 (First Law)",
+      "content": "The **First Law of Thermodynamics**:\n$$\\Delta U = Q - W$$\n- $$\\Delta U$$: change in internal energy\n- $$Q$$: heat added **to** the system\n- $$W$$: work done **by** the system\n\nDoing work reduces internal energy unless heat is added.",
+      "video": "https://www.youtube.com/watch?v=1OFlW8OXN64",
+      "image": "/public/images/OIP (15).webp",
+      "supplementary": "null"
+    },
+    {
+      "type": "quiz",
+      "question": "Thermal energy is?",
+      "options": ["Total kinetic energy of particles", "Potential energy", "Mechanical energy", "Power"],
+      "answer": "Total kinetic energy of particles"
+    },
+    {
+      "type": "quiz",
+      "question": "Heat is?",
+      "options": ["Energy transferred due to temp difference", "Total energy", "Force", "Velocity"],
+      "answer": "Energy transferred due to temp difference"
+    },
+    {
+      "type": "quiz",
+      "question": "Temperature measures?",
+      "options": ["Average kinetic energy", "Total energy", "Potential energy", "Force"],
+      "answer": "Average kinetic energy"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Heat Exchange - Part 1 (Specific Heat)",
+      "content": "When heat flows:\n$$Q = m c \\Delta T$$\n- $$m$$: mass\n- $$c$$: specific heat capacity\n- $$\\Delta T = T_f - T_i$$\n\nPositive $$Q$$: gains heat; Negative $$Q$$: loses heat.",
+      "video": "https://www.youtube.com/watch?v=LL54E5CzQ-A",
+      "image": "/public/images/R (5).png",
+      "supplementary": "null"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 6: Heat Exchange - Part 2 (Calorimetry & Mixing)",
+      "content": "In insulated systems:\n$$\\sum Q = 0$$\n\nTwo substances mixing to $$T_f$$:\n$$m_1 c_1 (T_f - T_{1i}) + m_2 c_2 (T_f - T_{2i}) = 0.$$",
+      "video": "https://www.youtube.com/watch?v=LL54E5CzQ-A",
+      "image": "null",
+      "supplementary": "https://www.physicsflow.com/g11/4.1.3#:~:text=There%20are%20three%20main%20ways%20to%20transfer%20heat%3A,phenomena%20and%20design%20systems%20for%20efficient%20energy%20use."
+    },
+    {
+      "type": "quiz",
+      "question": "Heat formula?",
+      "options": ["Q = mcΔT", "KE = 1/2 mv²", "PE = mgh", "P = W/t"],
+      "answer": "Q = mcΔT"
+    },
+    {
+      "type": "quiz",
+      "question": "Units of c?",
+      "options": ["J/kg°C", "J", "N", "W"],
+      "answer": "J/kg°C"
+    },
+    {
+      "type": "quiz",
+      "question": "ΔT = ?",
+      "options": ["T_final - T_initial", "T_initial - T_final", "T_final × T_initial", "T_final / T_initial"],
+      "answer": "T_final - T_initial"
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson 7: Heating and Cooling Curves",
+      "content": "- **Sloped segments:** $$Q = mc\\Delta T$$\n- **Flat segments:** $$Q = mL$$ (phase change)\n\nTotal for ice → steam:\n$$Q = mc_{ice}\\Delta T + mL_f + mc_{water}\\Delta T + mL_v + mc_{steam}\\Delta T.$$",
+      "video": "https://www.youtube.com/watch?v=hJW4SFYTgGU",
+      "image": "/public/images/maxresdefault (7).jpg",
+      "supplementary": "https://studymind.co.uk/notes/heating-and-cooling-graphs/"
+    },
+    {
+      "type": "quiz",
+      "question": "Flat section in heating curve means?",
+      "options": ["Phase change", "Temp increase", "Temp decrease", "No heat added"],
+      "answer": "Phase change"
+    },
+    {
+      "type": "quiz",
+      "question": "Q = mL for?",
+      "options": ["Phase change", "Temperature change", "Power", "Efficiency"],
+      "answer": "Phase change"
+    },
+    {
+      "type": "quiz",
+      "question": "Sloped section uses?",
+      "options": ["Q = mcΔT", "Q = mL", "P = W/t", "KE = 1/2 mv²"],
+      "answer": "Q = mcΔT"
+    }
+  ]
+}
